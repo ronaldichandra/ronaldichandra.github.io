@@ -1,0 +1,124 @@
+/*
+  kombinasi properti
+*/
+body {
+  /*
+  background-color: #000000;
+  background-image: url(pics/bekgron.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  */
+  background: #000000 url(https://i.ibb.co/2vCmG6F/wallpaper3.png) no-repeat fixed center;
+  font-family: sans-serif;
+}
+
+/* menu tab keseluruhan */
+.menu{
+  text-align: center;
+}
+
+.menu2{
+  text-align: center;
+}
+
+.linkbp {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  width: 250px;
+}
+
+/* menu tab satu per satu */
+.menu_web{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+}
+/* kondisi biasa */
+.menu_web:link{
+  background: black;
+  color: pink;
+}
+
+/* kondisi setelah dikunjungi */
+.menu_web:visited{
+  background: black;
+  color: pink;
+}
+
+/* kondisi hover (mouse di atas link) */
+.menu_web:hover{
+  background: pink;
+  color: black;
+}
+
+/* kondisi aktif */
+.menu_web:active{
+  background: pink;
+  color: black;
+}
+/* sampai di sini */
+
+/* tab bawah */
+
+/* kondisi biasa */
+.linkbp:link{
+  background: black;
+  color: pink;
+}
+
+/* kondisi setelah dikunjungi */
+.linkbp:visited{
+  background: black;
+  color: pink;
+}
+
+/* kondisi hover (mouse di atas link) */
+.linkbp:hover{
+  background: pink;
+  color: black;
+}
+
+/* kondisi aktif */
+.linkbp:active{
+  background: pink;
+  color: black;
+}
+
+/* sampai di sini */
+
+h1 {
+  color    : black;
+  background: pink;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 20px;
+  line-height: normal;
+  font-size: 50px;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+}
+
+#text1 {
+  color: pink;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: normal;
+  text-transform: uppercase;
+}
+
+#text2 {
+  color: pink;
+  text-align: center;
+  text-decoration: normal;
+  text-transform: uppercase;
+  display: inline;
+}
