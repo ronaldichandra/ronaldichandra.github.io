@@ -15,8 +15,8 @@ body {
 
 /* efek transisi */
 #fade {
-  -webkit-animation: fadeEffect 1s;
-  animation: fadeEffect 1s;
+  -webkit-animation: fadeEffect 2s;
+  animation: fadeEffect 2s;
 }
 
 @-webkit-keyframes fadeEffect {
@@ -47,6 +47,8 @@ body {
 
 .menu2{
   text-align: center;
+  -webkit-animation: fadeEffect 2s;
+  animation: fadeEffect 2s;
   /* margion top left bottom right */
   margin-top: 100px;
 }
