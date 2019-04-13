@@ -45,11 +45,11 @@ body {
 
 .menu2{
   text-align: center;
-  display: block;
+  /* display: block;
   position: fixed;
   top: 500px;
   right: 360px;
-  left: 360px;
+  left: 360px; */
 }
 
 .linkbp {

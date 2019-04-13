@@ -47,11 +47,11 @@ body {
 
 .menu2{
   text-align: center;
-  position: fixed;
+  /* position: fixed;
   display: block;
   top: 500px;
   left: 360px;
-  right: 360px;
+  right: 360px; */
   /* margin top left bottom right */
 }
 
