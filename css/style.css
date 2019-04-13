@@ -47,13 +47,15 @@ body {
 
 .menu2{
   text-align: center;
+  position: fixed;
+  top: 500px;
+  left: 400px;
   -webkit-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
   /* margion top left bottom right */
-  margin-top: 100px;
 }
 
-.linkbp {
+#linkbp {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -66,7 +68,7 @@ body {
 }
 
 /* menu tab satu per satu */
-.menu_web{
+#menu_web{
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -79,25 +81,25 @@ body {
   width: 200px;
 }
 /* kondisi biasa */
-.menu_web:link{
+#menu_web:link{
   background: black;
   color: pink;
 }
 
 /* kondisi setelah dikunjungi */
-.menu_web:visited{
+#menu_web:visited{
   background: black;
   color: pink;
 }
 
 /* kondisi hover (mouse di atas link) */
-.menu_web:hover{
+#menu_web:hover{
   background: pink;
   color: black;
 }
 
 /* kondisi aktif */
-.menu_web:active{
+#menu_web:active{
   background: pink;
   color: black;
 }
@@ -106,25 +108,25 @@ body {
 /* tab bawah */
 
 /* kondisi biasa */
-.linkbp:link{
+#linkbp:link{
   background: black;
   color: pink;
 }
 
 /* kondisi setelah dikunjungi */
-.linkbp:visited{
+#linkbp:visited{
   background: black;
   color: pink;
 }
 
 /* kondisi hover (mouse di atas link) */
-.linkbp:hover{
+#linkbp:hover{
   background: pink;
   color: black;
 }
 
 /* kondisi aktif */
-.linkbp:active{
+#linkbp:active{
   background: pink;
   color: black;
 }

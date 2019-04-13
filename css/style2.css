@@ -49,7 +49,9 @@ body {
   text-align: center;
   -webkit-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
-  margin-top: 100px;
+  position: fixed;
+  top: 500px;
+  left: 400px;
 }
 
 .linkbp {
