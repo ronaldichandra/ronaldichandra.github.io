@@ -134,6 +134,7 @@ h1 {
 
 #aboutme {
   text-align: center;
+  font-weight: bold;
   color: black;
   background: pink;
   display: block;
@@ -152,6 +153,6 @@ h1 {
 #aboutme3 {
   color: pink;
   font-size: 20px;
-  text-transform: italic;
+  font-style: italic;
   text-align: center;
 }
