@@ -25,10 +25,12 @@ body {
 /* menu tab keseluruhan */
 .menu{
   text-align: center;
+  margin-top: 10px;
 }
 
 .menu2{
   text-align: center;
+  margin-top: 350px;
 }
 
 .linkbp {
@@ -46,8 +48,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  height: auto;
-  width: 150px;
+  padding: 20px 0 0 0;
+  height: 40px;
+  width: 200px;
 }
 /* kondisi biasa */
 .menu_web:link{
@@ -135,12 +138,14 @@ h1 {
 #aboutme {
   text-align: center;
   font-weight: bold;
-  color: black;
-  background: pink;
+  color: pink;
+  /* boder width style color */
+  border: 2px solid pink;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
+  padding-bottom: 2px;
   font-size: 20px;
 }
 

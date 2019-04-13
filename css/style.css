@@ -31,10 +31,13 @@ body {
 /* menu tab keseluruhan */
 .menu{
   text-align: center;
+  margin-top: 10px;
 }
 
 .menu2{
   text-align: center;
+  /* margion top left bottom right */
+  margin: 350px 0px 0px 0px;
 }
 
 .linkbp {
@@ -52,7 +55,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  height: auto;
+  padding: 20px 0 0 0;
+  height: 40px;
   width: 200px;
 }
 /* kondisi biasa */
