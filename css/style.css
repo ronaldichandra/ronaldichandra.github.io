@@ -48,11 +48,11 @@ body {
 .menu2{
   text-align: center;
   position: fixed;
+  display: block;
   top: 500px;
-  left: 400px;
-  -webkit-animation: fadeEffect 2s;
-  animation: fadeEffect 2s;
-  /* margion top left bottom right */
+  left: 360px;
+  right: 360px;
+  /* margin top left bottom right */
 }
 
 #linkbp {
