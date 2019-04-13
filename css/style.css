@@ -14,7 +14,7 @@ body {
 }
 
 /* efek transisi */
-#fade {
+.fade {
   -webkit-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
 }
