@@ -9,8 +9,17 @@ body {
   background-attachment: fixed;
   background-position: center;
   */
-  background: #000000 url(../pics/bekgron.png) no-repeat scroll center;
+  background: black;
   font-family: sans-serif;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-right: auto;
+  width: auto;
+  height: auto;
 }
 
 /* menu tab keseluruhan */
@@ -22,7 +31,7 @@ body {
 .menu2{
   text-align: center;
   /* margion top left bottom right */
-  margin: 350px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
 }
 
 .linkbp {
