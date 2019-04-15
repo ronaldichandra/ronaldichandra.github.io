@@ -64,7 +64,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
   height: auto;
-  width: 250px;
+  width: auto;
 }
 
 /* menu tab satu per satu */
@@ -105,33 +105,6 @@ body {
 }
 /* sampai di sini */
 
-/* tab bawah */
-
-/* kondisi biasa */
-#linkbp:link{
-  background: black;
-  color: pink;
-}
-
-/* kondisi setelah dikunjungi */
-#linkbp:visited{
-  background: black;
-  color: pink;
-}
-
-/* kondisi hover (mouse di atas link) */
-#linkbp:hover{
-  background: pink;
-  color: black;
-}
-
-/* kondisi aktif */
-#linkbp:active{
-  background: pink;
-  color: black;
-}
-
-/* sampai di sini */
 
 h1 {
   color    : black;
@@ -145,12 +118,4 @@ h1 {
   font-weight: bold;
   width: auto;
   height: auto;
-}
-
-#text2 {
-  color: pink;
-  text-align: center;
-  text-decoration: normal;
-  text-transform: uppercase;
-  display: inline;
 }

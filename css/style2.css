@@ -57,8 +57,12 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
+  outline: none;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 10px;
   height: auto;
-  width: 250px;
+  width: 90px;
 }
 
 /* menu tab satu per satu */
@@ -115,7 +119,7 @@ body {
 
 /* kondisi hover (mouse di atas link) */
 .linkbp:hover{
-  background: pink;
+  background-color: #f06292;
   color: black;
 }
 
@@ -190,10 +194,11 @@ h1 {
   text-align: center;
   display: block;
   margin-top: 40px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 720px;
-  height: 160px;
+  height: auto;
   color: pink;
   font-style: italic;
 }
