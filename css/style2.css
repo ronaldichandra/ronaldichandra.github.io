@@ -37,6 +37,13 @@ body {
   margin-top: 30px;
 }
 
+.batas {
+  text-align: center;
+  color: pink;
+  font-weight: bold;
+  display: inline-block;
+}
+
 /* menu tab keseluruhan */
 .menu{
   text-align: center;
@@ -119,7 +126,7 @@ body {
 
 /* kondisi hover (mouse di atas link) */
 .linkbp:hover{
-  background-color: #f06292;
+  background-color: #ff4081;
   color: black;
 }
 
@@ -145,22 +152,6 @@ h1 {
   height: auto;
 }
 
-#text1 {
-  color: pink;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: normal;
-  text-transform: uppercase;
-}
-
-#text2 {
-  color: pink;
-  text-align: center;
-  text-decoration: normal;
-  text-transform: uppercase;
-  display: inline;
-}
-
 #aboutme {
   text-align: center;
   font-weight: bold;
@@ -179,6 +170,7 @@ h1 {
 
 #aboutme2 {
   color: white;
+  font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
@@ -187,18 +179,88 @@ h1 {
   color: pink;
   font-size: 20px;
   font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#aboutme4 {
+  color: #ff80ab;
+  padding-top: auto;
+  font-weight: bold;
+  font-size: 16px;
   text-align: center;
 }
 
 #isi1 {
   text-align: center;
   display: block;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 720px;
   height: auto;
   color: pink;
   font-style: italic;
+}
+
+#isi2 {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+  height: auto;
+  color: pink;
+  font-style: italic;
+}
+
+#isi3 {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+  height: auto;
+  color: pink;
+  font-weight: bolder;
+}
+
+.linkme {
+  text-align: center;
+  color: pink;
+  margin-top: auto;
+  padding-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.linkme:link {
+  background: black;
+  color: pink;
+}
+
+.linkme:hover {
+  background: pink;
+  color: black;
+}
+
+.linkme:visited {
+  background: black;
+  color: pink;
+}
+
+.linkme:active {
+  background: pink;
+  colo: black;
 }

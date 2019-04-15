@@ -119,3 +119,27 @@ h1 {
   width: auto;
   height: auto;
 }
+
+#isi1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: pink;
+}
+
+#isi2 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  color: pink;
+}
+
+.isian {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 30px;
+}
