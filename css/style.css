@@ -104,18 +104,16 @@ h1 {
   color: pink;
 }
 
-#content2 {
-  text-align: center;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 20px;
-  color: pink;
-}
-
 main-content {
   position: relative;
   margin-left: auto;
   margin-right: auto;
   display: block;
   padding-top: 30px;
+}
+
+#details1, #summary1 {
+  color:pink;
+  text-align: center;
+  font-size: 16px;
 }
