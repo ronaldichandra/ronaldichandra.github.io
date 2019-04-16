@@ -9,7 +9,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   */
-  background: #000000 no-repeat fixed center;
+  background: black;
   font-family: sans-serif;
 }
 
@@ -37,7 +37,7 @@ body {
   margin-top: 30px;
 }
 
-.batas {
+.limiter {
   text-align: center;
   color: pink;
   font-weight: bold;
@@ -182,7 +182,7 @@ h1 {
   text-align: center;
 }
 
-#isi1, #isi2 {
+#content1, #content2 {
   text-align: center;
   display: block;
   margin-bottom: 20px;
@@ -195,7 +195,7 @@ h1 {
   font-style: italic;
 }
 
-#isi3 {
+#content3 {
   text-align: center;
   display: block;
   margin-bottom: 20px;
@@ -242,4 +242,12 @@ h1 {
 .linkme:active {
   background: pink;
   colo: black;
+}
+
+main-content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 30px;
 }
