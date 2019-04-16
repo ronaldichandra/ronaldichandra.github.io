@@ -45,18 +45,9 @@ body {
 }
 
 /* menu tab keseluruhan */
-.menu{
+nav, footer{
   text-align: center;
   margin-top: 10px;
-}
-
-.menu2{
-  text-align: center;
-  /* display: block;
-  position: fixed;
-  top: 500px;
-  right: 360px;
-  left: 360px; */
 }
 
 .linkbp {
@@ -191,19 +182,7 @@ h1 {
   text-align: center;
 }
 
-#isi1 {
-  text-align: center;
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 720px;
-  height: auto;
-  color: pink;
-  font-style: italic;
-}
-
-#isi2 {
+#isi1, #isi2 {
   text-align: center;
   display: block;
   margin-bottom: 20px;
