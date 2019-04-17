@@ -1,2 +1,2 @@
-# zephyrxj.github.io
-A simple portofolio
+# A simple portofolio
+Link: https://zephyrxj.github.io
