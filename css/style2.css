@@ -13,10 +13,16 @@ body {
 /* efek transisi */
 .fade {
   -webkit-animation: fadeEffect 2s;
+  -moz-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
 }
 
 @-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-moz-keyframes fadeEffect{}
   from {opacity: 0;}
   to {opacity: 1;}
 }
@@ -52,10 +58,8 @@ nav, footer{
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  outline: none;
-  transition: 0.3s;
+  transition: background 1.5s, color 1.5s;
   border-radius: 10px;
-  cursor: pointer;
   margin-top: 10px;
   height: auto;
   width: 90px;
@@ -64,14 +68,13 @@ nav, footer{
 /* menu tab satu per satu */
 .menu_web{
   text-align: center;
+  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
+  transition: background 1.5s, color 1.5s, width 1.5s, height 1.5s;
   border-radius: 10px;
   padding: 20px 0 0 0;
-  outline: none;
-  cursor: pointer;
-  transition: 0.3s;
   height: 40px;
   width: 200px;
 }
@@ -90,6 +93,9 @@ nav, footer{
 /* kondisi hover (mouse di atas link) */
 .menu_web:hover{
   background: pink;
+  padding: 30px 0 0 0;
+  height: 60px;
+  width: 250px;
   color: black;
 }
 
@@ -169,7 +175,7 @@ h1 {
 
 #aboutme3 {
   color: pink;
-  font-size: 8px;
+  font-size: 15px;
   font-style: italic;
   /* text-shadow: hori verti blur color */
   text-shadow: 0px 0px 5px white;
@@ -220,11 +226,9 @@ h1 {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  outline: none;
   height: 40px;
   width: 100px;
-  transition: 0.3s;
-  cursor: pointer;
+  transition: background 1.5s, color 1.5s;
   font-weight: bold;
 }
 

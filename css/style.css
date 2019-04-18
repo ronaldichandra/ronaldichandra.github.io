@@ -13,10 +13,16 @@ body {
 /* efek transisi */
 .fade {
   -webkit-animation: fadeEffect 2s;
+  -moz-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
 }
 
 @-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-moz-keyframes fadeEffect{}
   from {opacity: 0;}
   to {opacity: 1;}
 }
