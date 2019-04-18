@@ -171,6 +171,8 @@ h1 {
   color: pink;
   font-size: 8px;
   font-style: italic;
+  /* text-shadow: hori verti blur color */
+  text-shadow: 0px 0px 5px white;
   font-weight: lighter;
   text-align: center;
 }
@@ -252,4 +254,10 @@ main-content {
   margin-right: auto;
   display: block;
   padding-top: 30px;
+}
+
+#details1, #summary1 {
+  color:pink;
+  text-align: center;
+  font-size: 16px;
 }
