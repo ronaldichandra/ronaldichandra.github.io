@@ -49,14 +49,13 @@ nav{
 /* menu tab satu per satu */
 .menu_web{
   text-align: center;
+  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
   padding: 20px 0 0 0;
-  outline: none;
   border-radius: 10px;
-  cursor: pointer;
-  transition: 0.3s;
+  transition: 1.5s;
   height: 40px;
   width: 200px;
 }
@@ -75,6 +74,9 @@ nav{
 /* kondisi hover (mouse di atas link) */
 .menu_web:hover{
   background: pink;
+  height: 60px;
+  width: 250px;
+  padding-top: 30px;
   color: black;
 }
 
