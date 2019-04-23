@@ -132,7 +132,7 @@ nav, footer{
 
 /* sampai di sini */
 
-h1 {
+#ha1 {
   color    : black;
   background: pink;
   text-decoration: inherit;
@@ -140,7 +140,21 @@ h1 {
   text-align: center;
   letter-spacing: 20px;
   line-height: normal;
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+}
+
+#ha2 {
+  color    : black;
+  background: pink;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  line-height: normal;
+  font-size: 25px;
   font-weight: bold;
   width: auto;
   height: auto;
@@ -195,7 +209,7 @@ h1 {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 720px;
+  width: auto;
   height: auto;
   color: pink;
   font-style: italic;
