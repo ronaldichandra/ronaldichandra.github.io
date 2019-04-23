@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>./zephyrxj</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ronaldi Chandra">
+    <meta name="description" content="Halaman portofolio saya">
+    <meta property="og:description" content="Halaman portofolio saya">
+    <meta property="og:title" content="Ronaldi Chandra">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gabriela">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html" class="menu_web">Home</a>
+      <a href="aboutme.html" class="menu_web">About me</a>
+      <a href="aboutbp.html" class="menu_web">About Blackpink</a>
+    </nav>
+
+    <header class="fade">
+     <h1> WELCOME </h1>
+   </header>
+
+    <div class="fade">
+      <img id="center" src="pics/bekgron1.png" alt="blackpink" width="256px" height="110px">
+    </div>
+
+    <main-content class="fade">
+      <p id="content1"> Welcome to my portofolio with BlackPink's theme</p>
+    </main-content>
+
+  </body>
+</html>

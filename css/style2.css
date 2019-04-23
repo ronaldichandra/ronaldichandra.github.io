@@ -7,7 +7,7 @@ body {
   background-position: center;
   */
   background: black;
-  font-family: sans-serif;
+  font-family: monospace;
 }
 
 /* efek transisi */
@@ -60,7 +60,7 @@ nav, footer{
   display: inline-block;
   transition: background 1.5s, color 1.5s;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
   height: auto;
   width: 90px;
 }
@@ -120,10 +120,8 @@ nav, footer{
   color: pink;
 }
 
-/* kondisi hover (mouse di atas link) */
 .linkbp:hover{
-  background-color: #ff80ab;
-  color: black;
+  transform: rotate(20deg);
 }
 
 /* kondisi aktif */
@@ -168,8 +166,8 @@ h1 {
 
 #aboutme2 {
   color: white;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: normal;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -183,11 +181,10 @@ h1 {
   text-align: center;
 }
 
-#aboutme4 {
-  color: #ff80ab;
-  padding-top: auto;
-  font-weight: bold;
-  font-size: 16px;
+#aboutme2 {
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -208,7 +205,7 @@ h1 {
   text-align: center;
   display: block;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 720px;
@@ -226,9 +223,8 @@ h1 {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  height: 40px;
-  width: 100px;
-  transition: background 1.5s, color 1.5s;
+  height: auto;
+  width: auto;
   font-weight: bold;
 }
 
@@ -237,9 +233,8 @@ h1 {
   color: pink;
 }
 
-.linkme:hover {
-  background: pink;
-  color: black;
+.linkme:hover{
+  transform: rotate(20deg);
 }
 
 .linkme:visited {
@@ -267,5 +262,5 @@ main-content {
 }
 
 .linkgua {
-  margin-top: 90px;
+  margin-top: 0px;
 }
