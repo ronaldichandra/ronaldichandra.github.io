@@ -257,7 +257,8 @@ main-content {
 }
 
 #details1, #summary1 {
-  color:pink;
+  margin-top: 20px;
+  color: white;
   text-align: center;
   font-size: 16px;
 }
