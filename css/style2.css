@@ -40,13 +40,6 @@ body {
   margin-top: auto;
 }
 
-.limiter {
-  text-align: center;
-  color: pink;
-  font-weight: bold;
-  display: inline-block;
-}
-
 /* menu tab keseluruhan */
 nav, footer{
   text-align: center;
@@ -62,7 +55,7 @@ nav, footer{
   border-radius: 10px;
   margin-top: 0px;
   height: auto;
-  width: 90px;
+  width: auto;
 }
 
 /* menu tab satu per satu */
@@ -74,34 +67,35 @@ nav, footer{
   display: inline-block;
   transition: background 1.5s, color 1.5s, width 1.5s, height 1.5s;
   border-radius: 10px;
-  padding: 20px 0 0 0;
+  font-family: Oswald;
+  padding: 10px 0px 0px 0px;
   height: 40px;
   width: 200px;
 }
 /* kondisi biasa */
 .menu_web:link{
-  background: black;
-  color: pink;
+  background: pink;
+  color: black;
 }
 
 /* kondisi setelah dikunjungi */
 .menu_web:visited{
-  background: black;
-  color: pink;
+  background: pink;
+  color: black;
 }
 
 /* kondisi hover (mouse di atas link) */
 .menu_web:hover{
-  background: pink;
-  padding: 30px 0 0 0;
-  height: 60px;
+  background: white;
+  padding: 10px 0 0 0;
+  height: 40px;
   width: 250px;
   color: black;
 }
 
 /* kondisi aktif */
 .menu_web:active{
-  background: pink;
+  background: #880e4f;
   color: black;
 }
 /* sampai di sini */
@@ -111,13 +105,11 @@ nav, footer{
 /* kondisi biasa */
 .linkbp:link{
   background: black;
-  color: pink;
 }
 
 /* kondisi setelah dikunjungi */
 .linkbp:visited{
   background: black;
-  color: pink;
 }
 
 .linkbp:hover{
@@ -126,8 +118,7 @@ nav, footer{
 
 /* kondisi aktif */
 .linkbp:active{
-  background: pink;
-  color: black;
+  background: #880e4f;
 }
 
 /* sampai di sini */
@@ -141,6 +132,7 @@ nav, footer{
   letter-spacing: 20px;
   line-height: normal;
   font-size: 25px;
+  font-family: Oswald;
   font-weight: bold;
   width: auto;
   height: auto;
@@ -154,6 +146,7 @@ nav, footer{
   text-align: center;
   letter-spacing: 10px;
   line-height: normal;
+  font-family: Oswald;
   font-size: 25px;
   font-weight: bold;
   width: auto;
@@ -231,20 +224,16 @@ nav, footer{
 .linkme {
   text-align: center;
   color: pink;
-  margin-top: auto;
-  padding-top: 20px;
+  margin-top: 10px;
   border-radius: 10px;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  height: auto;
   width: auto;
-  font-weight: bold;
 }
 
 .linkme:link {
   background: black;
-  color: pink;
 }
 
 .linkme:hover{
@@ -253,12 +242,10 @@ nav, footer{
 
 .linkme:visited {
   background: black;
-  color: pink;
 }
 
 .linkme:active {
-  background: pink;
-  colo: black;
+  background: #880e4f;
 }
 
 main-content {
