@@ -65,7 +65,7 @@ nav, footer{
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  transition: background 1.5s, color 1.5s, width 1.5s, height 1.5s;
+  transition: 1.5s;
   border-radius: 10px;
   font-family: Oswald;
   padding: 10px 0px 0px 0px;
@@ -88,6 +88,7 @@ nav, footer{
 .menu_web:hover{
   background: white;
   padding: 10px 0 0 0;
+  transform: translate(5,10);
   height: 40px;
   width: 250px;
   color: black;
@@ -113,7 +114,7 @@ nav, footer{
 }
 
 .linkbp:hover{
-  transform: rotate(20deg);
+  transform: rotateZ(20deg);
 }
 
 /* kondisi aktif */
@@ -265,4 +266,18 @@ main-content {
 
 .linkgua {
   margin-top: 0px;
+}
+
+#profile1 {
+  display: block;
+  width: 130px; height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotateZ(1px) translateZ(1px);
+  margin-top: auto;
+  transition: 1.5s;
+}
+
+#profile1:hover{
+    transform: rotateZ(360deg);
 }
