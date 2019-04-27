@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   */
-  background: black;
+  background-image: linear-gradient(to left, #8534f7 0%, #2760e6 100%);
   font-family: Share Tech Mono;
 }
 
@@ -54,6 +54,7 @@ nav, footer{
   transition: background 1.5s, color 1.5s;
   border-radius: 10px;
   margin-top: 0px;
+  background: none;
   height: auto;
   width: auto;
 }
@@ -61,6 +62,25 @@ nav, footer{
 /* menu tab satu per satu */
 .menu_web{
   text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  transition: 1.5s;
+  -webkit-transition: 1.5s;
+  border-radius: 10px;
+  color: black;
+  background: white;
+  font-family: Oswald;
+  padding: 10px 0px 0px 0px;
+  height: 40px;
+  width: 200px;
+}
+
+.menu_web2{
+  text-align: center;
+  color: black;
+  background: pink;
   font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
@@ -74,43 +94,63 @@ nav, footer{
 }
 /* kondisi biasa */
 .menu_web:link{
-  background: pink;
+  background: white;
   color: black;
 }
 
 /* kondisi setelah dikunjungi */
 .menu_web:visited{
-  background: pink;
+  background: white;
   color: black;
 }
 
 /* kondisi hover (mouse di atas link) */
 .menu_web:hover{
-  background: white;
+  background: pink;
+  color: black;
   padding: 10px 0 0 0;
-  transform: translate(5,10);
   height: 40px;
   width: 250px;
-  color: black;
-}
-
-/* kondisi aktif */
-.menu_web:active{
-  background: #880e4f;
-  color: black;
 }
 /* sampai di sini */
 
+.menu_web2:active{
+  background: pink;
+  color: black;
+}
+
+.menu_web2:link{
+  background: pink;
+  color: black;
+}
+
+.menu_web2:visited{
+  background: pink;
+  color: black;
+}
+
+.menu_web2:hover{
+  background: black;
+  padding: 10px 0 0 0;
+  height: 40px;
+  width: 250px;
+  color: white;
+}
+
+.menu_web2:active{
+  background: #880e4f;
+  color: black;
+}
 /* tab bawah */
 
 /* kondisi biasa */
 .linkbp:link{
-  background: black;
+  background: none;
 }
 
 /* kondisi setelah dikunjungi */
 .linkbp:visited{
-  background: black;
+  background: none;
 }
 
 .linkbp:hover{
@@ -119,14 +159,14 @@ nav, footer{
 
 /* kondisi aktif */
 .linkbp:active{
-  background: #880e4f;
+  background: none;
 }
 
 /* sampai di sini */
 
 #ha1 {
-  color    : white;
-  background-image: linear-gradient(90deg, #1976d2, #4527a0);
+  color    : black;
+  background: white;
   text-decoration: inherit;
   text-transform: uppercase;
   text-align: center;
@@ -159,17 +199,24 @@ nav, footer{
   font-weight: bold;
   color: white;
   /* boder width style color */
-  border: 2px solid #3f51b5;
+  border: 2px solid white;
   display: block;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
   /* box-shadow: horizontal vertical blur spread color */
-  box-shadow: 0px 0px 10px 5px #3f51b5  ;
+  box-shadow: 0px 0px 10px 5px white  ;
   padding-bottom: 2px;
   text-indent: 0px;
   font-size: 20px;
+}
+
+#aboutme2 {
+  color: #ad6cfe;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
 }
 
 #aboutme2 {
@@ -178,18 +225,7 @@ nav, footer{
   font-size: 15px;
   text-align: center;
 }
-
 #aboutme3 {
-  color: pink;
-  font-size: 15px;
-  font-style: italic;
-  /* text-shadow: hori verti blur color */
-  text-shadow: 0px 0px 5px white;
-  font-weight: lighter;
-  text-align: center;
-}
-
-#aboutme2 {
   color: white;
   font-weight: normal;
   font-size: 15px;
@@ -234,7 +270,7 @@ nav, footer{
 }
 
 .linkme:link {
-  background: black;
+  background: none;
 }
 
 .linkme:hover{
@@ -242,7 +278,7 @@ nav, footer{
 }
 
 .linkme:visited {
-  background: black;
+  background: none;
 }
 
 .linkme:active {
@@ -274,7 +310,7 @@ main-content {
   margin-left: auto;
   margin-right: auto;
   transform: rotateZ(1px) translateZ(1px);
-  margin-top: auto;
+  margin-top: 0px;
   transition: 1.5s;
 }
 
