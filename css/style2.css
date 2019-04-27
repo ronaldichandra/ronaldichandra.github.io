@@ -125,8 +125,8 @@ nav, footer{
 /* sampai di sini */
 
 #ha1 {
-  color    : black;
-  background: pink;
+  color    : white;
+  background-image: linear-gradient(90deg, #1976d2, #4527a0);
   text-decoration: inherit;
   text-transform: uppercase;
   text-align: center;
@@ -157,16 +157,16 @@ nav, footer{
 #aboutme {
   text-align: center;
   font-weight: bold;
-  color: pink;
+  color: white;
   /* boder width style color */
-  border: 2px solid pink;
+  border: 2px solid #3f51b5;
   display: block;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
   /* box-shadow: horizontal vertical blur spread color */
-  box-shadow: 0px 0px 10px 5px pink;
+  box-shadow: 0px 0px 10px 5px #3f51b5  ;
   padding-bottom: 2px;
   text-indent: 0px;
   font-size: 20px;
