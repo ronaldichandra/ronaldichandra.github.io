@@ -61,85 +61,58 @@ nav, footer{
 
 /* menu tab satu per satu */
 .menu_web{
-  text-align: center;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
+  position: absolute;
+
+  display: block;
   transition: 1.5s;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-transition: 1.5s;
-  border-radius: 10px;
-  color: black;
-  background: white;
-  font-family: Oswald;
-  padding: 10px 0px 0px 0px;
-  height: 40px;
-  width: 200px;
+  bottom: 0;
 }
 
 .menu_web2{
-  text-align: center;
-  color: black;
-  background: pink;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
+  position: absolute;
+  margin-right: auto;
+  display: block;
   transition: 1.5s;
-  border-radius: 10px;
-  font-family: Oswald;
-  padding: 10px 0px 0px 0px;
-  height: 40px;
-  width: 200px;
+  -webkit-transition: 1.5s;
+  bottom: 0;
 }
 /* kondisi biasa */
 .menu_web:link{
-  background: white;
-  color: black;
+  background: none;
 }
 
 /* kondisi setelah dikunjungi */
 .menu_web:visited{
-  background: white;
-  color: black;
+  background: none;
 }
 
 /* kondisi hover (mouse di atas link) */
 .menu_web:hover{
-  background: pink;
-  color: black;
-  padding: 10px 0 0 0;
-  height: 40px;
-  width: 250px;
+  background: none;
 }
 /* sampai di sini */
 
 .menu_web2:active{
-  background: pink;
-  color: black;
+  background: none;
 }
 
 .menu_web2:link{
-  background: pink;
-  color: black;
+  background: none;
 }
 
 .menu_web2:visited{
-  background: pink;
-  color: black;
+  background: none;
 }
 
 .menu_web2:hover{
-  background: black;
-  padding: 10px 0 0 0;
-  height: 40px;
-  width: 250px;
-  color: white;
+  background: none;
 }
 
 .menu_web2:active{
-  background: #880e4f;
-  color: black;
+  background: none;
 }
 /* tab bawah */
 
@@ -170,13 +143,17 @@ nav, footer{
   text-decoration: inherit;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 10px;
-  line-height: normal;
+  letter-spacing: 4px;
   font-size: 25px;
   font-family: Oswald;
   font-weight: bold;
-  width: auto;
-  height: auto;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 1px;
+  border-radius: 10px;
+  height: 40px;
 }
 
 #ha2 {
@@ -185,13 +162,17 @@ nav, footer{
   text-decoration: inherit;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 10px;
+  letter-spacing: 4px;
   line-height: normal;
   font-family: Oswald;
   font-size: 25px;
   font-weight: bold;
-  width: auto;
-  height: auto;
+  width: 300px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
 }
 
 #aboutme {
@@ -282,7 +263,7 @@ nav, footer{
 }
 
 .linkme:active {
-  background: #880e4f;
+  background: none;
 }
 
 main-content {
