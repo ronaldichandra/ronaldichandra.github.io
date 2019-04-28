@@ -32,6 +32,23 @@ body {
   to {opacity: 1;}
 }
 
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
 /* id untuk gambar tengah */
 #center {
   display: block;
@@ -68,6 +85,8 @@ nav, footer{
   margin-left: auto;
   margin-right: auto;
   -webkit-transition: 1.5s;
+  right: 0;
+  animation: bounce .5s infinite alternate;
   bottom: 0;
 }
 
@@ -75,8 +94,10 @@ nav, footer{
   position: absolute;
   margin-right: auto;
   display: block;
+  animation: bounce .5s infinite alternate;
   transition: 1.5s;
   -webkit-transition: 1.5s;
+  left: 0;
   bottom: 0;
 }
 /* kondisi biasa */
