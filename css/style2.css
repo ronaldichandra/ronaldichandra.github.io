@@ -58,9 +58,9 @@ body {
 }
 
 /* menu tab keseluruhan */
-nav, footer{
+
+nav, footer {
   text-align: center;
-  margin-top: 10px;
 }
 
 .linkbp {
@@ -79,7 +79,6 @@ nav, footer{
 /* menu tab satu per satu */
 .menu_web{
   position: absolute;
-
   display: block;
   transition: 1.5s;
   margin-left: auto;
@@ -159,40 +158,38 @@ nav, footer{
 /* sampai di sini */
 
 #ha1 {
-  color    : black;
+  color    : #555555;
   background: white;
-  text-decoration: inherit;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   letter-spacing: 4px;
   font-size: 25px;
-  font-family: Oswald;
-  font-weight: bold;
+  font-family: 'Share Tech Mono', cursive;
   width: 200px;
+  padding-top: 2px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-bottom: 1px;
-  border-radius: 10px;
+  border-radius: 5px;
+    padding-top: 10px;
   height: 40px;
 }
 
 #ha2 {
-  color    : black;
+  color    : #555555;
   background: pink;
-  text-decoration: inherit;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   letter-spacing: 4px;
   line-height: normal;
-  font-family: Oswald;
+  font-family: 'Share Tech Mono', cursive;
   font-size: 25px;
-  font-weight: bold;
   width: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
   height: 40px;
 }
 
