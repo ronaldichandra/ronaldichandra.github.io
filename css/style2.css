@@ -78,7 +78,7 @@ nav, footer {
 
 /* menu tab satu per satu */
 .menu_web{
-  position: absolute;
+  position: fixed;
   display: block;
   transition: 1.5s;
   margin-left: auto;
@@ -90,7 +90,7 @@ nav, footer {
 }
 
 .menu_web2{
-  position: absolute;
+  position: fixed;
   margin-right: auto;
   display: block;
   animation: bounce .5s infinite alternate;
