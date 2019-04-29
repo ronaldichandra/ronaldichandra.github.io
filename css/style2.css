@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   */
-  background-image: linear-gradient(to left, #7139C9 30%, #1F3BC9 80%);
+  background-image: linear-gradient(to right, #1F3BC9 0%, #693EC6 60%);
   font-family: Share Tech Mono;
 }
 
