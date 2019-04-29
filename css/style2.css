@@ -6,8 +6,12 @@ body {
   background-attachment: fixed;
   background-position: center;
   */
-  background-image: linear-gradient(to left, #8534f7 0%, #2760e6 100%);
+  background-image: linear-gradient(to left, #6027BA 0%, #2442B2 100%);
   font-family: Share Tech Mono;
+}
+
+#bekgron{
+  background: black;
 }
 
 /* efek transisi */
@@ -182,9 +186,9 @@ nav, footer {
   /* text-transform: uppercase; */
   text-align: center;
   letter-spacing: 4px;
-  box-shadow: 5px 7px 20px 1px black;
+  box-shadow: 5px 7px 10px 1px #555555;
   line-height: normal;
-  font-family: 'Share Tech Mono', cursive;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 25px;
   width: 300px;
   border-radius: 5px;
