@@ -16,27 +16,27 @@ body {
 
 /* efek transisi */
 .fade {
-  -webkit-animation: fadeEffect 2s;
-  -moz-animation: fadeEffect 2s;
-  animation: fadeEffect 2s;
+  -webkit-animation: kedip 2s;
+  -moz-animation: kedip 2s;
+  animation: kedip 2s;
 }
 
-@-webkit-keyframes fadeEffect {
+@-webkit-keyframes kedip {
   from {opacity: 0;}
   to {opacity: 1;}
 }
 
-@-moz-keyframes fadeEffect{
+@-moz-keyframes kedip{
   from {opacity: 0;}
   to {opacity: 1;}
 }
 
-@keyframes fadeEffect {
+@keyframes kedip {
   from {opacity: 0;}
   to {opacity: 1;}
 }
 
-@keyframes bounce {
+@keyframes mantul {
   from {
     transform: translateY(0px);
   }
@@ -44,7 +44,17 @@ body {
     transform: translateY(-15px);
   }
 }
-@-webkit-keyframes bounce {
+
+@-webkit-keyframes mantul {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+@-moz-keyframes mantul {
   from {
     transform: translateY(0px);
   }
@@ -89,7 +99,11 @@ nav, footer {
   margin-right: auto;
   -webkit-transition: 1.5s;
   right: 0;
-  animation: bounce .5s infinite alternate;
+  z-index: 1;
+  -moz-animation: mantul .5s infinite alternate;
+  -webkit-animation: mantul .5s infinite alternate;
+  /* animation: name duration iteration direction */
+  animation: mantul .5s infinite alternate;
   bottom: 0;
 }
 
@@ -97,10 +111,13 @@ nav, footer {
   position: fixed;
   margin-right: auto;
   display: block;
-  animation: bounce .5s infinite alternate;
+  -moz-animation: mantul .5s infinite alternate;
+  -webkit-animation: mantul .5s infinite alternate;
+  animation: mantul .5s infinite alternate;
   transition: 1.5s;
   -webkit-transition: 1.5s;
   left: 0;
+  z-index: 1;
   bottom: 0;
 }
 /* kondisi biasa */
@@ -323,6 +340,77 @@ main-content {
 }
 
 #profile2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.progress_bar{
+  margin-top: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 200px; height: 25px;
+}
+
+#skill1{
+  background: white;
+  position: absolute;
+  width: 0px; height: 21px;
+  animation-name: bar;
+  animation-duration: 2s;
+  border-radius: 5px;
+  animation-iteration-count: 1;
+  text-align: center;
+  padding-top: 4px;
+  animation-fill-mode: forwards;
+}
+
+#skill2{
+  background: white;
+  position: absolute;
+  width: 0px; height: 21px;
+  animation-name: bar2  ;
+  animation-duration: 2s;
+  border-radius: 5px;
+  animation-iteration-count: 1;
+  text-align: center;
+  padding-top: 4px;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bar {
+  from { width: 0px; }
+  to { width: 130px; background: white;}
+}
+
+@keyframes bar2 {
+  from { width: 0px; }
+  to { width: 170px; background: white;}
+}
+
+#aboutskill {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  /* boder width style color */
+  border: 1px solid white;
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  /* box-shadow: horizontal vertical blur spread color */
+  box-shadow: 0px 0px 10px 5px white  ;
+  text-indent: 0px;
+  font-size: 20px;
+}
+
+#pngskill{
   display: block;
   margin-left: auto;
   margin-right: auto;
