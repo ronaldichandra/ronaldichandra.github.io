@@ -212,7 +212,6 @@ nav, footer {
   width: 200px;
   /* box-shadow: horizontal vertical blur spread color */
   box-shadow: 0px 0px 10px 5px white  ;
-  padding-bottom: 2px;
   text-indent: 0px;
   font-size: 20px;
 }
