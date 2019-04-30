@@ -8,17 +8,18 @@ body {
   */
   background-image: linear-gradient(to right, #1F3BC9 0%, #693EC6 60%);
   font-family: Share Tech Mono;
+  animation: kedip 5s 1 alternate;
 }
 
 #background1{
   background: black;
+  animation: kedip 5s 1 alternate;
 }
 
 /* efek transisi */
 .fade {
-  -webkit-animation: kedip 2s;
-  -moz-animation: kedip 2s;
-  animation: kedip 2s;
+  animation-name: kedip;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes kedip {
@@ -37,30 +38,33 @@ body {
 }
 
 @keyframes mantul {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-15px);
-  }
+  from {transform: translateY(0px);}
+  to {transform: translateY(-15px);}
 }
 
 @-webkit-keyframes mantul {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-15px);
-  }
+  from {transform: translateY(0px);}
+  to {transform: translateY(-15px);}
 }
 
 @-moz-keyframes mantul {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-15px);
-  }
+  from {transform: translateY(0px);}
+  to {transform: translateY(-15px);}
+}
+
+@keyframes muter{
+  from{transform: rotateZ(0px);}
+  to{transform: rotateZ(360deg);}
+}
+
+@-moz-keyframes muter{
+  from{transform: rotateZ(0px);}
+  to{transform: rotateZ(360deg);}
+}
+
+@-webkit-keyframes muter{
+  from{transform: rotateZ(0px);}
+  to{transform: rotateZ(360deg);}
 }
 
 /* id untuk gambar tengah */
@@ -73,7 +77,11 @@ body {
 
 /* menu tab keseluruhan */
 
-nav, footer {
+/* nav, footer {
+  text-align: center;
+} */
+
+#linkme_parent, #linkbp_parent{
   text-align: center;
 }
 
@@ -82,9 +90,9 @@ nav, footer {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  transition: background 1.5s, color 1.5s;
   border-radius: 10px;
   margin-top: 0px;
+  width: 50px; height: 50px;
   background: none;
   height: auto;
   width: auto;
@@ -360,6 +368,7 @@ nav, footer {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  margin-bottom: 20px;
   padding-top: 25px;
 }
 
@@ -373,14 +382,11 @@ nav, footer {
 #profile1 {
   display: block;
   width: 130px; height: 130px;
+  border-radius: 50%;
+  border: 3px solid white;
   margin-left: auto;
   margin-right: auto;
   animation: muter 3s 1 alternate;
-}
-
-@keyframes muter{
-  from{transform: rotateZ(0px);}
-  to{transform: rotateZ(360deg);}
 }
 
 #profile2 {
@@ -396,6 +402,7 @@ nav, footer {
   margin-right: auto;
   border-radius: 50%;
   border: 3px solid pink;
+  animation: muter 3s 1 alternate;
   width: 130px; height: 130px;
 }
 
