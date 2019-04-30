@@ -10,7 +10,7 @@ body {
   font-family: Share Tech Mono;
 }
 
-#bekgron{
+#background1{
   background: black;
 }
 
@@ -244,7 +244,6 @@ nav, footer {
   text-align: center;
   font-weight: bold;
   color: white;
-  /* border width style color */
   border: 1px solid white;
   display: block;
   margin-top: 40px;
@@ -258,22 +257,40 @@ nav, footer {
 }
 
 #aboutme2 {
-  color: #ad6cfe;
+  color: white;
+  margin-top: 30px;
   font-weight: normal;
   font-size: 15px;
   text-align: center;
 }
 
-#aboutme2 {
+#aboutbp {
   color: white;
+  margin-top: 30px;
   font-weight: normal;
   font-size: 15px;
   text-align: center;
 }
-#aboutme3 {
-  color: white;
-  font-weight: normal;
+#aboutj1{
+  text-align: center;
+  display: block;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: pink;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 5px pink;
+  border: 1px solid pink;
+
+}
+
+#aboutj2{
+  color: pink;
+  margin-top: 30px;
   font-size: 15px;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -330,7 +347,15 @@ nav, footer {
   background: none;
 }
 
-main-content {
+#main1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 25px;
+}
+
+#main2{
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -345,22 +370,17 @@ main-content {
   font-size: 16px;
 }
 
-.linkgua {
-  margin-top: 0px;
-}
-
 #profile1 {
   display: block;
   width: 130px; height: 130px;
   margin-left: auto;
   margin-right: auto;
-  transform: rotateZ(1px) translateZ(1px);
-  margin-top: 0;
-  transition: 1.5s;
+  animation: muter 3s 1 alternate;
 }
 
-#profile1:hover{
-    transform: rotateZ(360deg);
+@keyframes muter{
+  from{transform: rotateZ(0px);}
+  to{transform: rotateZ(360deg);}
 }
 
 #profile2 {
@@ -368,6 +388,15 @@ main-content {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+}
+
+#profile3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 3px solid pink;
+  width: 130px; height: 130px;
 }
 
 .progress_bar{
