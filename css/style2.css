@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   */
-  background-image: linear-gradient(to right, #1F3BC9 0%, #693EC6 60%);
+  background-image: linear-gradient(to right, #5b1932 0%, #0f182e 70%);
   font-family: Share Tech Mono;
   animation: kedip 5s 1 alternate;
 }
