@@ -66,6 +66,7 @@ body {
 
 #card2>.tab>.title{
   font-size: 17px;
+  font-weight: bold;
 }
 
 .title i{
