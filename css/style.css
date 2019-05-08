@@ -1,125 +1,101 @@
 body {
-  /*
-  background-color: #000000;
-  background-image: url(pics/bekgron.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  */
-  background: black;
-  font-family: monospace;
+  z-index: -2;
+  color: #00897b;
+  background-color: #EEEEEE;
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* efek transisi */
-.fade {
-  -webkit-animation: fadeEffect 2s;
-  -moz-animation: fadeEffect 2s;
-  animation: fadeEffect 2s;
+#atas{
+  z-index: -1;
+  width: 100%;
+  height: 25%;
+  background-color: #00897b;
+  top: 0;
+  position: fixed;
 }
 
-@-webkit-keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@-moz-keyframes fadeEffect{
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-/* id untuk gambar tengah */
-#center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-}
-
-/* menu tab keseluruhan */
-nav{
-  text-align: center;
-  margin-top: 10px;
-}
-
-/* menu tab satu per satu */
-.menu_web{
-  text-align: center;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px 0 0 0;
-  border-radius: 10px;
-  transition: 1.5s;
-  height: 40px;
-  width: 200px;
-}
-/* kondisi biasa */
-.menu_web:link{
-  background: black;
-  color: pink;
-}
-
-/* kondisi setelah dikunjungi */
-.menu_web:visited{
-  background: black;
-  color: pink;
-}
-
-/* kondisi hover (mouse di atas link) */
-.menu_web:hover{
-  background: pink;
-  height: 60px;
-  width: 250px;
-  padding-top: 30px;
-  color: black;
-}
-
-/* kondisi aktif */
-.menu_web:active{
-  background: pink;
-  color: black;
-}
-/* sampai di sini */
-
-
-h1 {
-  color    : black;
-  background: pink;
-  text-decoration: inherit;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 20px;
-  line-height: normal;
-  font-size: 30px;
-  font-weight: bold;
-  width: auto;
+.card{
+  width: 500px;
   height: auto;
-}
-
-#content1 {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  color: pink;
-}
-
-main-content {
-  position: relative;
+  background-color: #fff;
+  position: block;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  padding-top: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 7px 0 #616161;
+  overflow: auto;
 }
 
-#details1, #summary1 {
-  color:pink;
-  text-align: center;
-  font-size: 16px;
+#card1{
+	padding:32px;
+	margin-top:10vh;
+	text-align:center;
+}
+
+#card1 #photo{
+  width: 80px; height: 80px;
+  border: 4px solid #00897b;
+  border-radius: 100%;
+}
+
+#card1 #nama{
+  font-size: 19px;
+  color:#212121;
+}
+
+#card1 #desc{
+  font-size: 15px;
+  color: #616161;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+#card2{
+  position:relative;
+  padding:15px 32px 8px 32px;
+	margin-top:22px;
+}
+
+#card2>.tab{
+  margin-top:10px;
+	margin-bottom:10px;
+}
+
+#card2>.tab>.title{
+  font-size: 17px;
+}
+
+.title i{
+  position: relative;
+  left: -10px;
+}
+
+#card2>.tab>.content{
+  padding: 5px 15px 5px 15px;
+  position: relative;
+}
+
+#card2 .isi{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#card2 .isi .about{
+  font-size: 15px;
+  color: #000;
+}
+
+#card2 .isi .tahun{
+  font-size: 15px;
+  color: #616161;
+}
+
+hr{
+  width: 100%;
+  color: #E0E0E0;
+  background-color: #E0E0E0;
+  height: 1px;
+  border: 0;
 }
