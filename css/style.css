@@ -98,11 +98,14 @@ hr{
 }
 
 /* MEDIA */
-@media (min-width: 481px) and (max-width: 960px) {
+@media (max-width: 960px) {
 	.card{
 		width:80%;
 	}
-@media (max-width: 480px){
+}
+
+@media (max-width: 480px) {
 	.card{
-    width: 90%
+		width:90%;
+	}
 }
