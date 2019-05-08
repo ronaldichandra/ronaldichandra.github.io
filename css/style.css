@@ -103,6 +103,15 @@ hr{
   border: 0;
 }
 
+footer{
+  text-align: center;
+  bottom:0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #616161;
+  padding: 10px 0;
+}
+
 /* MEDIA */
 @media (max-width: 960px) {
 	.card{
