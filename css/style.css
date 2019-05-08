@@ -101,13 +101,13 @@ hr{
 /* MEDIA */
 @media (max-width: 960px) {
 	.card{
-		width:70%;
+		width:60%;
 	}
 }
 
 @media (max-width: 480px) {
 	.card{
-		width:80%;
+		width:70%;
 	}
 }
 
