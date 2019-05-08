@@ -4,7 +4,7 @@ body {
   background-color: #EEEEEE;
   margin:0;
   padding:0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Product Sans', sans-serif;
 }
 
 #atas{
@@ -40,7 +40,7 @@ body {
 
 #card1 #nama{
   animation: fade 7s 1 alternate;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 19px;
   color:#212121;
 }
@@ -66,7 +66,7 @@ body {
 
 #card2>.tab>.title{
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .title i{
@@ -142,4 +142,12 @@ footer{
 @keyframes fade {
   from{opacity: 0}
   to{opacitu: 1}
+}
+
+/* FONT */
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
 }
