@@ -39,6 +39,8 @@ body {
 }
 
 #card1 #nama{
+  animation: fade 7s 1 alternate;
+  font-weight: normal;
   font-size: 19px;
   color:#212121;
 }
@@ -47,6 +49,7 @@ body {
   font-size: 15px;
   color: #616161;
   margin-top: 10px;
+  animation: fade 7s 1 alternate;
   font-weight: normal;
 }
 
@@ -76,6 +79,7 @@ body {
 }
 
 #card2 .isi{
+  animation: fade 7s 1 alternate;
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -123,4 +127,9 @@ hr{
 @-webkit-keyframes spin {
   from{transform: rotateZ(0deg);}
   to{transform: rotateZ(360deg)}
+}
+
+@keyframes fade {
+  from{opacity: 0}
+  to{opacitu: 1}
 }
