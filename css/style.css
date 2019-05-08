@@ -40,7 +40,7 @@ body {
 
 #card1 #nama{
   animation: fade 7s 1 alternate;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 19px;
   color:#212121;
 }
