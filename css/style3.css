@@ -176,20 +176,12 @@ footer{
 
 /* MEDIA */
 @media (max-width: 960px) {
-  #fab{
-    right: 2%;
-    bottom: 2%;
-  }
 	.card{
 		width:65%;
 	}
 }
 
 @media (max-width: 480px) {
-  #fab{
-    right: 2%;
-    bottom: 2%;
-  }
 	.card{
 		width:75%;
 	}
