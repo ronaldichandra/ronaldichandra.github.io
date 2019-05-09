@@ -5,6 +5,7 @@ body {
   margin:0;
   padding:0;
   font-family: 'Product Sans', sans-serif;
+  text-decoration: none;
 }
 
 #atas{
@@ -22,7 +23,7 @@ body {
   margin:0 auto;
   border-radius: 5px;
   box-shadow: 0 2px 7px 0 #616161;
-  overflow: auto;
+  overflow: visible;
 }
 
 #card1{
@@ -95,6 +96,37 @@ body {
   color: #9e9e9e;
 }
 
+#card3{
+  position: relative;
+  margin-top: 22px;
+  margin-bottom: 40px;
+  padding: 15px 32px 15px 32px;
+}
+
+#card3>.tab{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#card3>.tab>.title{
+  font-size: 17px;
+  font-weight: 300;
+}
+
+#card3>.tab>.content{
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+}
+
+#card3>.tab>.content>.contact{
+  animation: fade 7s 1 alternate;
+  font-size: 15px;
+  display: inline-block;
+  margin: 20px 20px;
+  color: #00897b;
+  text-decoration: none;
+}
+
 hr{
   width: 100%;
   color: #E0E0E0;
@@ -127,15 +159,15 @@ footer{
 
 /* ANIMASI */
 @keyframes spin {
-  from{transform: rotateZ(0deg);}
+  from{transform: rotateZ(45deg);}
   to{transform: rotateZ(360deg)}
 }
 @-moz-keyframes spin {
-  from{transform: rotateZ(0deg);}
+  from{transform: rotateZ(45deg);}
   to{transform: rotateZ(360deg)}
 }
 @-webkit-keyframes spin {
-  from{transform: rotateZ(0deg);}
+  from{transform: rotateZ(45deg);}
   to{transform: rotateZ(360deg)}
 }
 
@@ -144,6 +176,15 @@ footer{
   to{opacitu: 1}
 }
 
+@-moz-keyframes fade {
+  from{opacity: 0}
+  to{opacitu: 1}
+}
+
+@-webkit-keyframes fade {
+  from{opacity: 0}
+  to{opacitu: 1}
+}
 /* FONT */
 @font-face {
   font-family: 'Product Sans';
