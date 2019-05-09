@@ -1,0 +1,233 @@
+body {
+  z-index: -2;
+  color: #e91e63;
+  background-color: #EEEEEE;
+  margin:0;
+  padding:0;
+  font-family: 'Product Sans', sans-serif;
+  text-decoration: none;
+}
+
+#atas{
+  z-index: -1;
+  width: 100%;
+  height: 25%;
+  background-color: #e91e63;
+  top: 0;
+  position: fixed;
+}
+
+.card{
+  width: 490px;
+  background-color: #fff;
+  margin:0 auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 7px 0 #616161;
+  overflow: visible;
+}
+
+#card1{
+	padding:32px;
+	margin-top:66px;
+	text-align:center;
+}
+
+#card1 #photo{
+  animation: spin 4s 1 alternate;
+  width: 80px; height: 80px;
+  border: 2px solid #e91e63;
+  border-radius: 100%;
+}
+
+#card1 #nama{
+  animation: fade 7s 1 alternate;
+  font-weight: 500;
+  font-size: 19px;
+  color:#212121;
+}
+
+#card1 #desc{
+  font-size: 15px;
+  color: #616161;
+  margin-top: 10px;
+  animation: fade 7s 1 alternate;
+  font-weight: normal;
+  font-style: italic;
+}
+
+#card2{
+  position:relative;
+  padding:15px 32px 8px 32px;
+	margin-top:22px;
+}
+
+#card2>.tab{
+  margin-top:10px;
+	margin-bottom:10px;
+}
+
+#card2>.tab>.title{
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.title i{
+  position: relative;
+  left: -10px;
+}
+
+#card2>.tab>.content{
+  padding: 5px 15px 5px 15px;
+  position: relative;
+}
+
+#card2 .isi{
+  animation: fade 7s 1 alternate;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#card2 .isi .about{
+  font-size: 15px;
+  color: #000;
+}
+
+#card2 .isi .tahun{
+  font-size: 15px;
+  color: #9e9e9e;
+}
+
+#card3{
+  position: relative;
+  margin-top: 22px;
+  padding: 15px 32px 15px 32px;
+}
+
+#card3>.tab{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#card3>.tab>.title{
+  font-size: 17px;
+  font-weight: 300;
+}
+
+#card3>.tab>.content{
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+}
+
+#card3>.tab>.content>.contact{
+  animation: fade 7s 1 alternate;
+  font-size: 15px;
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+#card3 a{
+  text-decoration: none;
+  color: #000;
+}
+
+#card3 a:hover{
+  color: #e91e63;
+}
+
+hr{
+  width: 100%;
+  color: #E0E0E0;
+  background-color: #E0E0E0;
+  height: 1px;
+  border: 0;
+}
+
+#fab{
+  top: 20%;
+  right: 15%;
+  z-index: 0;
+	position:fixed;
+	width:60px;
+	height:60px;
+	line-height: 60px;
+	text-align:center;
+	background-color: #fff;
+	border-radius:100%;
+	box-shadow: 0 2px 7px 0 #616161;
+}
+
+#fab a{
+  text-decoration: none;
+}
+
+#fab i{
+	color:#e91e63;
+	font-size:22px;
+}
+
+footer{
+  text-align: center;
+  bottom:0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #616161;
+  padding: 10px 0;
+}
+
+/* MEDIA */
+@media (max-width: 960px) {
+  #fab{
+    right: 2%;
+    bottom: 2%;
+  }
+	.card{
+		width:65%;
+	}
+}
+
+@media (max-width: 480px) {
+  #fab{
+    right: 2%;
+    bottom: 2%;
+  }
+	.card{
+		width:75%;
+	}
+}
+
+/* ANIMASI */
+@keyframes spin {
+  from{transform: rotateZ(45deg);}
+  to{transform: rotateZ(360deg)}
+}
+@-moz-keyframes spin {
+  from{transform: rotateZ(45deg);}
+  to{transform: rotateZ(360deg)}
+}
+@-webkit-keyframes spin {
+  from{transform: rotateZ(45deg);}
+  to{transform: rotateZ(360deg)}
+}
+
+@keyframes fade {
+  from{opacity: 0}
+  to{opacitu: 1}
+}
+
+@-moz-keyframes fade {
+  from{opacity: 0}
+  to{opacitu: 1}
+}
+
+@-webkit-keyframes fade {
+  from{opacity: 0}
+  to{opacitu: 1}
+}
+/* FONT */
+@font-face {
+  font-family: 'Product Sans';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
