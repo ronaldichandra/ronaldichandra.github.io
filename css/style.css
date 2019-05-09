@@ -52,6 +52,7 @@ body {
   margin-top: 10px;
   animation: fade 7s 1 alternate;
   font-weight: normal;
+  font-style: italic;
 }
 
 #card2{
@@ -99,7 +100,6 @@ body {
 #card3{
   position: relative;
   margin-top: 22px;
-  margin-bottom: 40px;
   padding: 15px 32px 15px 32px;
 }
 
@@ -123,8 +123,15 @@ body {
   font-size: 15px;
   display: inline-block;
   margin: 20px 20px;
-  color: #00897b;
+}
+
+#card3 a{
   text-decoration: none;
+  color: #000;
+}
+
+#card3 a:hover{
+  color: #00897b;
 }
 
 hr{
@@ -188,6 +195,7 @@ footer{
 /* FONT */
 @font-face {
   font-family: 'Product Sans';
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
