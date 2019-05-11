@@ -178,7 +178,7 @@ footer{
 /* MEDIA */
 @media (max-width: 960px) {
   #fab{
-    right: 2%;
+    right: 4%;
     bottom: 2%;
   }
 	.card{
@@ -188,7 +188,7 @@ footer{
 
 @media (max-width: 480px) {
   #fab{
-    right: 2%;
+    right: 4;
     bottom: 2%;
   }
 	.card{
