@@ -149,7 +149,7 @@ hr{
 	position:fixed;
 	width:60px;
 	height:60px;
-	line-height: 60px;
+	line-height: 70px;
 	text-align:center;
 	background-color: #fff;
 	border-radius:100%;
@@ -161,8 +161,9 @@ hr{
 }
 
 #fab i{
+  padding-left: 0px;
 	color:#e91e63;
-	font-size:22px;
+	font-size:30px;
 }
 
 footer{
