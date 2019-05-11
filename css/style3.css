@@ -151,7 +151,7 @@ hr{
 	height:60px;
 	line-height: 70px;
 	text-align:center;
-	background-color: #fff;
+	background-color: #e91e63;
 	border-radius:100%;
 	box-shadow: 0 2px 7px 0 #616161;
 }
@@ -162,7 +162,7 @@ hr{
 
 #fab i{
   padding-right: 2px;
-	color:#e91e63;
+	color:#fff;
 	font-size:30px;
 }
 
