@@ -144,6 +144,7 @@ hr{
 
 #fab{
   bottom: 10%;
+  animation: bounce 1s 1 alternate;
   right: 15%;
   z-index: 0;
 	position:fixed;
@@ -223,6 +224,14 @@ footer{
 @-webkit-keyframes fade {
   from{opacity: 0}
   to{opacitu: 1}
+}
+
+@keyframes bounce {
+  0%{transform: translateY(0)}
+  25%{transform: translateY(-30px)}
+  50%{transform: translateY(0px)}
+  75%{transform: translateY(-15px)}
+  100%{transform: translateY(0px)}
 }
 /* FONT */
 @font-face {
