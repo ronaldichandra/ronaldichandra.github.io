@@ -11,7 +11,7 @@ body {
 #atas{
   z-index: -1;
   width: 100%;
-  height: 25%;
+  height: 35%;
   background-color: #ef7297;
   top: 0;
   position: fixed;
@@ -43,7 +43,7 @@ body {
   animation: fade 7s 1 alternate;
   font-weight: 500;
   font-size: 19px;
-  color: #fff;
+  color: #ef7297;
 }
 
 #card1 #desc{
