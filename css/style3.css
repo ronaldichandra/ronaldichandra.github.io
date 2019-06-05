@@ -55,46 +55,9 @@ body {
   font-style: italic;
 }
 
-#card2{
-  position:relative;
-  padding:15px 32px 8px 32px;
-	margin-top:22px;
-}
-
-#card2>.tab{
-  margin-top:10px;
-	margin-bottom:10px;
-}
-
-#card2>.tab>.title{
-  font-size: 17px;
-  font-weight: 300;
-}
-
 .title i{
   position: relative;
   left: -10px;
-}
-
-#card2>.tab>.content{
-  padding: 5px 15px 5px 15px;
-  position: relative;
-}
-
-#card2 .isi{
-  animation: fade 7s 1 alternate;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-#card2 .isi .about{
-  font-size: 15px;
-  color: #fff;
-}
-
-#card2 .isi .tahun{
-  font-size: 15px;
-  color: #9e9e9e;
 }
 
 #card3{
