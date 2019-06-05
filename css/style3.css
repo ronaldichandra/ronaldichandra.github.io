@@ -1,7 +1,7 @@
 body {
   z-index: -2;
   color: #ef7297;
-  background-color: #333333;
+  background-color: #121212;
   margin:0;
   padding:0;
   font-family: 'Product Sans', sans-serif;
@@ -19,10 +19,10 @@ body {
 
 .card{
   width: 490px;
-  background-color: #fff;
+  background-color: #202020;
   margin:0 auto;
   border-radius: 5px;
-  box-shadow: 0 2px 7px 0 #616161;
+  box-shadow: 0 2px 7px 0 #0f0f0f;
   overflow: visible;
 }
 
@@ -35,7 +35,7 @@ body {
 #card1 #photo{
   animation: spin 4s 1 alternate;
   width: 80px; height: 80px;
-  border: 2px solid #e91e63;
+  border: 2px solid #ef7297;
   border-radius: 100%;
 }
 
@@ -43,7 +43,7 @@ body {
   animation: fade 7s 1 alternate;
   font-weight: 500;
   font-size: 19px;
-  color:#212121;
+  color: #fff;
 }
 
 #card1 #desc{
@@ -89,7 +89,7 @@ body {
 
 #card2 .isi .about{
   font-size: 15px;
-  color: #000;
+  color: #fff;
 }
 
 #card2 .isi .tahun{
@@ -127,11 +127,11 @@ body {
 
 #card3 a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 #card3 a:hover{
-  color: #e91e63;
+  color: #ef7297;
 }
 
 hr{
@@ -152,9 +152,9 @@ hr{
 	height:60px;
 	line-height: 70px;
 	text-align:center;
-	background-color: #e91e63;
+	background-color: #ef7297;
 	border-radius:100%;
-	box-shadow: 0 2px 7px 0 #616161;
+	box-shadow: 0 2px 7px 0 #0f0f0f;
 }
 
 #fab a{
@@ -163,7 +163,7 @@ hr{
 
 #fab i{
   padding-right: 2px;
-	color:#fff;
+	color:#121212;
 	font-size:30px;
 }
 
@@ -172,7 +172,7 @@ footer{
   bottom:0;
   font-size: 12px;
   font-weight: bold;
-  color: #616161;
+  color: #9e9e9e;
   padding: 10px 0;
 }
 
