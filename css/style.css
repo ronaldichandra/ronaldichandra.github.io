@@ -136,6 +136,7 @@ body {
 
 hr{
   width: 100%;
+  animation: fade 7s 1 alternate;
   color: #E0E0E0;
   background-color: #E0E0E0;
   height: 1px;
