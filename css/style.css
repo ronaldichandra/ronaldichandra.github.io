@@ -145,7 +145,7 @@ hr{
 
 #fab{
   bottom: 10%;
-  animation: bounce 1s 1 normal;
+  animation: spin 1s 1 normal;
   right: 15%;
   z-index: 0;
 	position:fixed;
@@ -166,15 +166,6 @@ hr{
   padding-left: 1px;
 	color:#ffc107;
 	font-size:30px;
-}
-
-footer{
-  text-align: center;
-  bottom:0;
-  font-size: 12px;
-  font-weight: bold;
-  color: #9e9e9e;
-  padding: 10px 0;
 }
 
 /* MEDIA */
