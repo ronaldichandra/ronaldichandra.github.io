@@ -1,7 +1,7 @@
 body {
   z-index: -2;
   color: #ffc107;
-  background-color: #121212;
+  background-color: #ffc107;
   margin:0;
   padding:0;
   font-family: 'Product Sans', sans-serif;
@@ -22,7 +22,7 @@ body {
   background-color: #202020;
   margin:0 auto;
   border-radius: 5px;
-  box-shadow: 0 2px 7px 0 #0f0f0f;
+  box-shadow: 0 2px 10px 0 #0f0f0f;
   overflow: visible;
 }
 
