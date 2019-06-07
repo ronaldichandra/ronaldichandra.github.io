@@ -1,7 +1,7 @@
 body {
   z-index: -2;
   color: #ffc107;
-  background-color: #ffc107;
+  background-color: #121212;
   margin:0;
   padding:0;
   font-family: 'Product Sans', sans-serif;
@@ -141,6 +141,10 @@ hr{
   background-color: #E0E0E0;
   height: 1px;
   border: 0;
+}
+
+footer{
+  display: inline-block;
 }
 
 #fab{
