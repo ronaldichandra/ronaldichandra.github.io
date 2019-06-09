@@ -1,7 +1,7 @@
 body {
   z-index: -2;
-  color: #ffc107;
-  background-color: #ffc107;
+  color: #f62b48;
+  background-color: #f62b48;
   margin:0;
   padding:0;
   font-family: 'Product Sans', sans-serif;
@@ -48,7 +48,7 @@ body {
   animation: fade 7s 1 alternate;
   font-weight: 500;
   font-size: 19px;
-  color: #ffc107;
+  color:;
 }
 
 #card1 #desc{
@@ -168,7 +168,7 @@ footer{
 
 #fab i{
   padding-left: 1px;
-	color:#ffc107;
+	color:#f62b48;
 	font-size:30px;
 }
 
