@@ -6,7 +6,7 @@ body{
 .card{
   background: #fff;
   margin: auto;
-  border: 1px solid #f62b48;
+  border: 3px solid #f62b48;
   border-radius:5px 5px 0px 0px;
   height: 200px;
   width: 490px;
@@ -45,7 +45,7 @@ body{
 .card2{
   background: #f62b48;
   margin: 0 auto;
-  border-width: 0px 1px 1px 1px;
+  border-width: 0px 3px 3px 3px;
   border-style: solid;
   border-color: #f62b48;
   border-radius:0px 0px 5px 5px;
