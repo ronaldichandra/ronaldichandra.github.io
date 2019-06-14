@@ -6,7 +6,7 @@ body{
 .card{
   background: #fff;
   margin: auto;
-  border-radius:10px 10px 0px 0px;
+  border-radius:5px 5px 0px 0px;
   height: 200px;
   width: 490px;
 }
@@ -45,7 +45,7 @@ body{
   background: #f62b48;
   margin: 0 auto;
   position: relative;
-  border-radius:0px 0px 10px 10px;
+  border-radius:0px 0px 5px 5px;
   height: 30px;
   width: 490px;
 }
@@ -70,7 +70,15 @@ body{
 }
 
 .card2 a:hover{
-  color: #000;
+  color: #3d3d3d;
+}
+
+.footer{
+  font-size: 30px;
+  color: white;
+  letter-spacing: 3px;
+  font-family: 'Cute Font', cursive;
+  text-align: center;
 }
 
 /* MEDIA AND KEYFRAMES */
