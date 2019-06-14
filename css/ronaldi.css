@@ -73,10 +73,16 @@ body{
   .card{
     width: 75%;
       }
+      .card2{
+        width: 75%;
+          }
 }
 
 @media (max-width: 480px) {
   .card{
     width: 85%;
       }
+      .card2{
+        width: 85%;
+          }
 }
