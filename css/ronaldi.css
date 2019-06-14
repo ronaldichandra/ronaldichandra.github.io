@@ -20,7 +20,6 @@ body{
 
 
 .card #photo{
-  animation: fade 5s 1 alternate;
   width: 128px;
   height: 128px;
   margin:0 auto;
