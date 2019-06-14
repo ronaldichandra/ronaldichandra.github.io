@@ -39,12 +39,12 @@ body{
 
 @media (max-width: 960px) {
   .card{
-    width: 70%;
+    width: 80%;
       }
 }
 
 @media (max-width: 480px) {
   .card{
-    width: 75%;
+    width: 90%;
       }
 }
