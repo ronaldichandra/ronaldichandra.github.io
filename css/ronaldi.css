@@ -1,239 +1,38 @@
-body {
-  z-index: -2;
-  color: #f62b48;
-  background-color: #f62b48;
-  margin:0;
-  padding:0;
-  font-family: 'Product Sans', sans-serif;
-  text-decoration: none;
-}
-
-#atas{
-  z-index: -1;
-  width: 100%;
-  height: 28%;
-  background-color: #121212;
-  top: 0;
-  position: fixed;
+body{
+  background: #121212;
+  font-family: 'Inconsolata', monospace;
 }
 
 .card{
+  background: #fff;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px 0 #0f0f0f;
+  height: 200px;
   width: 490px;
-  background-color: #202020;
+}
+
+#profile{
+  text-align: center;
+  margin-top: 180px;
+  padding: 20px;
+}
+
+.card #photo{
+  width: 128px;
+  height: 128px;
   margin:0 auto;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px 0 #0f0f0f;
-  overflow: visible;
-}
-
-.title i{
-  position: relative;
-  left: -10px;
-}
-
-#card1{
-	padding:32px;
-	margin-top:66px;
-	text-align:center;
-}
-
-#card1 #photo{
-  animation: spin 4s 1 alternate;
-  width: 80px; height: 80px;
-  border:none;
+  display: block;
   border-radius: 100%;
 }
 
-#card1 #nama{
-  animation: fade 7s 1 alternate;
-  font-weight: 500;
-  font-size: 19px;
-  color:;
-}
-
-#card1 #desc{
-  font-size: 15px;
-  color: #9e9e9e ;
-  margin-top: 10px;
-  animation: fade 7s 1 alternate;
-  font-weight: normal;
-  font-style: italic;
-}
-
-#card2{
-  position:relative;
-  padding:15px 32px 8px 32px;
-	margin-top:22px;
-}
-
-#card2>.tab{
-  margin-top:10px;
-	margin-bottom:10px;
-}
-
-#card2>.tab>.title{
-  font-size: 17px;
-  font-weight: 300;
-}
-
-#card2>.tab>.content{
-  padding: 5px 15px 5px 15px;
-  position: relative;
-}
-
-#card2 .isi{
-  animation: fade 7s 1 alternate;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-#card2 .isi .about{
-  font-size: 15px;
-  color: white;
-}
-
-#card2 a{
-  font-size: 15px;
-  color: #9e9e9e;
-}
-
-#card3{
-  position: relative;
-  margin-top: 22px;
-  padding: 15px 32px 15px 32px;
-}
-
-#card3>.tab{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#card3>.tab>.title{
-  font-size: 17px;
-  font-weight: 300;
-}
-
-#card3>.tab>.content{
-  padding: 5px 10px 5px 10px;
-  text-align: center;
-}
-
-#card3>.tab>.content>.contact{
-  animation: fade 7s 1 alternate;
-  font-size: 15px;
-  display: inline-block;
-  margin: 20px 20px;
-}
-
-#card3 a{
-  text-decoration: none;
-  color: white;
-}
-
-#card3 a:hover{
+.card #name{
+  font-size: 20px;
   color: #f62b48;
 }
 
-hr{
-  width: 100%;
-  animation: fade 7s 1 alternate;
-  color: #E0E0E0;
-  background-color: #E0E0E0;
-  height: 1px;
-  border: 0;
-}
-
-footer{
-  display: inline-block;
-}
-
-#fab{
-  bottom: 10%;
-  animation: spin 1s 1 normal;
-  right: 15%;
-  z-index: 0;
-	position:fixed;
-	width:60px;
-	height:60px;
-	line-height: 70px;
-	text-align:center;
-	background-color: #121212;
-	border-radius:100%;
-	box-shadow: 0 2px 7px 0 #0f0f0f;
-}
-
-#fab a{
-  text-decoration: none;
-}
-
-#fab i{
-  padding-left: 1px;
-	color:#f62b48;
-	font-size:30px;
-}
-
-/* MEDIA */
-@media (max-width: 960px) {
-  #fab{
-    right: 4%;
-    bottom: 2%;
-  }
-	.card{
-		width:65%;
-	}
-}
-
-@media (max-width: 480px) {
-  #fab{
-    right: 4;
-    bottom: 2%;
-  }
-	.card{
-		width:75%;
-	}
-}
-
-/* ANIMASI */
-@keyframes spin {
-  from{transform: rotateZ(45deg);}
-  to{transform: rotateZ(360deg)}
-}
-@-moz-keyframes spin {
-  from{transform: rotateZ(45deg);}
-  to{transform: rotateZ(360deg)}
-}
-@-webkit-keyframes spin {
-  from{transform: rotateZ(45deg);}
-  to{transform: rotateZ(360deg)}
-}
-
-@keyframes fade {
-  from{opacity: 0}
-  to{opacity: 1}
-}
-
-@-moz-keyframes fade {
-  from{opacity: 0}
-  to{opacity: 1}
-}
-
-@-webkit-keyframes fade {
-  from{opacity: 0}
-  to{opacity: 1}
-}
-
-@keyframes bounce {
-  0%{transform: translateY(0)}
-  25%{transform: translateY(-30px)}
-  50%{transform: translateY(0px)}
-  75%{transform: translateY(-15px)}
-  100%{transform: translateY(0px)}
-}
-/* FONT */
-@font-face {
-  font-family: 'Product Sans';
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+.card #desc{
+  font-weight: lighter;
+  font-size: 18px;
+  color: black;
 }
