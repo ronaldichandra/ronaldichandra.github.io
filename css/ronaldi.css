@@ -30,6 +30,7 @@ body{
 .card #name{
   animation: fade 5s 1 alternate;
   font-size: 20px;
+  font-weight: bold;
   color: #f62b48;
 }
 
