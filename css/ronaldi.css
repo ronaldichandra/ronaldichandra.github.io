@@ -20,6 +20,7 @@ body{
 
 
 .card #photo{
+  animation: fade 5s 1 alternate;
   width: 128px;
   height: 128px;
   margin:0 auto;
@@ -28,11 +29,13 @@ body{
 }
 
 .card #name{
+  animation: fade 5s 1 alternate;
   font-size: 20px;
   color: #f62b48;
 }
 
 .card #desc{
+  animation: fade 5s 1 alternate;
   font-weight: lighter;
   font-size: 18px;
   color: black;
@@ -53,7 +56,9 @@ body{
 }
 
 .contact{
+  animation: fade 5s 1 alternate;
   display: inline;
+  padding: 3px;
   z-index: 2;
 }
 
@@ -68,6 +73,7 @@ body{
   color: #000;
 }
 
+/* MEDIA AND KEYFRAMES */
 
 @media (max-width: 960px) {
   .card{
@@ -85,4 +91,19 @@ body{
       .card2{
         width: 85%;
           }
+}
+
+@keyframes fade {
+  from{opacity: 0}
+  to{to: 1}
+}
+
+@-moz-keyframes fade {
+  from{opacity: 0}
+  to{to: 1}
+}
+
+@-webkit-keyframes fade {
+  from{opacity: 0}
+  to{to: 1}
 }
