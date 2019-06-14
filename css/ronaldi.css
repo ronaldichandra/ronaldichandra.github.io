@@ -6,17 +6,18 @@ body{
 .card{
   background: #fff;
   margin: auto;
-  border-radius: 10px;
-  box-shadow: 0px 2px 2px 0 #fff;
+  border-radius:10px 10px 0px 0px;
   height: 200px;
   width: 490px;
 }
 
 #profile{
+  z-index: 0;
   text-align: center;
   margin-top: 180px;
   padding: 20px;
 }
+
 
 .card #photo{
   width: 128px;
@@ -36,6 +37,37 @@ body{
   font-size: 18px;
   color: black;
 }
+
+.card2{
+  background: #f62b48;
+  margin: 0 auto;
+  position: relative;
+  border-radius:0px 0px 10px 10px;
+  height: 30px;
+  width: 490px;
+}
+
+#profile2{
+  text-align: center;
+  padding: 20px;
+}
+
+.contact{
+  display: inline;
+  z-index: 2;
+}
+
+.card2 a{
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.card2 a:hover{
+  color: #000;
+}
+
 
 @media (max-width: 960px) {
   .card{
