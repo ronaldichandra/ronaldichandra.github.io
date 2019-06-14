@@ -45,9 +45,12 @@ body{
 .card2{
   background: #f62b48;
   margin: 0 auto;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #f62b48;
   border-radius:0px 0px 5px 5px;
   height: 30px;
-  width: 492px;
+  width: 490px;
 }
 
 #profile2{
