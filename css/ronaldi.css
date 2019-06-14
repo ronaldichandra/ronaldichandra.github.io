@@ -36,3 +36,11 @@ body{
   font-size: 18px;
   color: black;
 }
+
+@media (max-width: 960px) {
+  .card{ width: 50%;}
+}
+
+@media (max-width: 480px) {
+  .card{ width: 70%;}
+}
