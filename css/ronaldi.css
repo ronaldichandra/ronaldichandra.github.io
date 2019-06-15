@@ -7,8 +7,9 @@ body{
   background: #fff;
   margin: auto;
   border: 3px solid #f62b48;
-  border-radius:5px 5px 0px 0px;
-  height: 200px;
+  border-radius:5px;
+  box-shadow: 0px 2px 18px 0px black;
+  height: 250px;
   width: 490px;
 }
 
@@ -45,11 +46,9 @@ body{
 .card2{
   background: #f62b48;
   margin: 0 auto;
-  border-width: 0px 3px 3px 3px;
-  border-style: solid;
-  border-color: #f62b48;
-  border-radius:0px 0px 5px 5px;
-  height: 30px;
+  border: 1px solid #f62b48;
+  height: 22px;
+  margin-top: -65px;
   width: 490px;
 }
 
@@ -57,14 +56,6 @@ body{
   text-align: center;
   padding: 20px;
 }
-
-.contact{
-  animation: fade 5s 1 alternate;
-  display: inline;
-  padding: 3px;
-  z-index: 2;
-}
-
 
 .card2 a{
   font-size: 30px;
@@ -75,6 +66,13 @@ body{
 
 .card2 a:hover{
   color: #3d3d3d;
+}
+
+.contact{
+  animation: fade 5s 1 alternate;
+  display: inline;
+  padding: 3px;
+  z-index: 2;
 }
 
 .footer{
