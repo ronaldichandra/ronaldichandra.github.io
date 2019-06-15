@@ -9,7 +9,7 @@ body{
   border: 3px solid #f62b48;
   border-radius:5px;
   box-shadow: 0px 2px 10px 0 #0f0f0f;
-  height: 250px;
+  height: 230px;
   width: 490px;
 }
 
@@ -22,8 +22,8 @@ body{
 
 
 .card #photo{
-  width: 128px;
-  height: 128px;
+  width: 90px;
+  height: 90px;
   margin:0 auto;
   display: block;
   border-radius: 100%;
