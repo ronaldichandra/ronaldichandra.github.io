@@ -4,7 +4,7 @@ body{
 }
 
 .card{
-  background: #fff;
+  background: #121212;
   margin: auto;
   border: 3px solid #f62b48;
   border-radius:5px;
@@ -40,7 +40,7 @@ body{
   animation: fade 5s 1 alternate;
   font-weight: lighter;
   font-size: 18px;
-  color: black;
+  color: #fff;
 }
 
 .card2{
