@@ -4,7 +4,9 @@ body{
 }
 
 #header{
+  animation: fade 2s 1 alternate;
   text-align: center;
+  font-family: 'Englebert', sans-serif;
   color: rgba(0,0,0,0.25);
   margin-top: 50px;
 }
