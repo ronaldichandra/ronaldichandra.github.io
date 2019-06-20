@@ -1,12 +1,12 @@
 body{
   background: #fff;
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 
 #header{
   animation: fade 2s 1 alternate;
   text-align: center;
-  font-family: 'Englebert', sans-serif;
+  font-family: 'Reem Kufi', sans-serif;
   color: rgba(0,0,0,0.25);
   margin-top: 50px;
 }
