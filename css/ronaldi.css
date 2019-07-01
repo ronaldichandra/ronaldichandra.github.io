@@ -4,10 +4,10 @@ body{
 }
 
 #header{
-  animation: fade 2s 1 alternate;
+  animation: fade 3s 1 alternate;
   text-align: center;
   font-family: 'Reem Kufi', sans-serif;
-  color: #f62b48;
+  color: #4285f4;
   margin-top: 50px;
 }
 
@@ -30,6 +30,7 @@ body{
 }
 
 .card #photo{
+  animation: fade 5s 1 alternate;
   width: 90px;
   height: 90px;
   margin:0 auto;
@@ -41,14 +42,14 @@ body{
   animation: fade 5s 1 alternate;
   font-size: 20px;
   font-weight: bold;
-  color: #f62b48;
+  color: #4285f4;
 }
 
 .card #desc{
-  animation: fade 5s 1 alternate;
+  animation: fade 7s 1 alternate;
   font-weight: normal;
   font-size: 18px;
-  color: black;
+  color: #7e7e7e;
 }
 
 hr{
@@ -78,15 +79,15 @@ hr{
   font-size: 30px;
   text-decoration: none;
   text-align: center;
-  color: #f62b48;
+  color: #7e7e7e;
 }
 
 .card2 a:hover{
-  color: black;
+  color: #4285f4;
 }
 
 .contact{
-  animation: fade 5s 1 alternate;
+  animation: fade 7s 1 alternate;
   display: inline;
   padding: 3px;
   z-index: 2;
