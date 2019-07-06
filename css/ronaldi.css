@@ -6,7 +6,7 @@ body{
 #header{
   animation: fade 3s 1 alternate;
   text-align: center;
-  font-family: 'Reem Kufi', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: #7e7e7e;
   margin-top: 50px;
 }
@@ -20,7 +20,6 @@ body{
   height: 237px;
   width: 420px;
 }
-
 
 #profile{
   z-index: 0;
