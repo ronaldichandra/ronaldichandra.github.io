@@ -1,2 +1,2 @@
-# A simple portofolio
-Link: https://zephyrxj.github.io
+# My Github Page
+Only made with HTML5, CSS3 and 💖
