@@ -6,6 +6,7 @@ body{
 #header{
   animation: fade 3s 1 alternate;
   text-align: center;
+  opacity: 0.3;
   font-family: 'DM Sans', sans-serif;
   color: #7e7e7e;
   margin-top: 50px;
@@ -34,7 +35,6 @@ body{
   height: 90px;
   margin:0 auto;
   display: block;
-  border: 4px solid #636363;
   border-radius: 100%;
 }
 
