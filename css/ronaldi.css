@@ -100,12 +100,16 @@ hr{
   z-index: 2;
 }
 
-.footer{
-  font-size: 30px;
-  color: white;
-  letter-spacing: 3px;
-  font-family: 'Cute Font', cursive;
+.card3{
+  margin-top: 55px;
   text-align: center;
+  font-size: 7px;
+}
+
+.card3 #footer{
+  animation: fade 7s 1 alternate;
+  color: #6a6a6a;
+  opacity: .4;
 }
 
 /* MEDIA AND KEYFRAMES */
