@@ -53,6 +53,11 @@ body{
   color: #7e7e7e;
 }
 
+.card #desc .jisoo{
+  color: #ec7086;
+  text-decoration: none;
+}
+
 hr{
   width: 100%;
   color: #E0E0E0;
