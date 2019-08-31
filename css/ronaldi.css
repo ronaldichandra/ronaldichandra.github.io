@@ -1,115 +1,45 @@
 body{
-  background: white;
-  font-family:'Muli', sans-serif;
-}
-
-#header{
-  animation: fade 3s 1 alternate;
-  text-align: center;
-  opacity: 0.4;
-  font-family: 'Muli', sans-serif;
-  color: #7e7e7e;
-  margin-top: 50px;
-}
-
-.card{
-  background: #fff;
-  margin: auto;
-  border: 3px solid none;
-  border-radius:5px;
-  box-shadow: 0px 10px 28px 0px rgba(0,0,0,0.15);
-  height: 237px;
-  width: 420px;
+  background:#222;
+  color: #cecece;
+  overflow: hidden;
 }
 
 #profile{
-  z-index: 0;
-  text-align: center;
-  margin-top: 50px;
-  padding: 20px;
-}
-
-.card #photo{
-  animation: fade 5s 1 alternate;
-  width: 90px;
-  height: 90px;
-  margin:0 auto;
-  display: block;
-  border-radius: 100%;
-  border: 3px solid #4285f4;
-}
-
-.card #name{
-  animation: fade 5s 1 alternate;
-  font-size: 20px;
-  font-weight: bold;
-  color: #4285f4;
-  letter-spacing: 0px;
-}
-
-.card #desc{
-  animation: fade 7s 1 alternate;
-  font-weight: normal;
-  font-size: 18px;
-  color: #7e7e7e;
-}
-
-.card #desc .jisoo{
-  color: #ec7086;
-  text-decoration: none;
-}
-
-hr{
+  top: 25%;
   width: 100%;
-  color: #E0E0E0;
-  background-color: rgba(0,0,0,0.25);
-  height: 1px;
-  opacity: .5;
-  border: 0;
-}
-
-.card2{
-  background: white;
-  margin: 0 auto;
-  border-radius: 5px;
-  height: 20px;
-  margin-top: -62px;
-  width: 419px;
-}
-
-#profile2{
   text-align: center;
-  padding: 10px;
+  position: absolute;
 }
-
-.card2 a{
+h1{
+  font-size: 50px;
+}
+h2{
   font-size: 30px;
-  text-decoration: none;
+}
+
+#intro{
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 100;
   text-align: center;
-  color: #7e7e7e;
 }
 
-.card2 a:hover{
-  color: #4285f4;
+#terminal{
+  color: greenyellow;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  text-align: center;
 }
 
-.contact{
-  animation: fade 7s 1 alternate;
+#terminal2{
+  color: #cecece;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
   display: inline;
-  padding: 3px;
-  z-index: 2;
 }
 
-.card3{
-  margin-top: 55px;
-  text-align: center;
-  font-size: 7px;
-}
-
-.card3 #footer{
-  animation: fade 7s 1 alternate;
-  color: #6a6a6a;
-  opacity: .4;
+#terminal2 a{
+  text-decoration: none;
+  color: #ff66f0
 }
 
 /* MEDIA AND KEYFRAMES */
