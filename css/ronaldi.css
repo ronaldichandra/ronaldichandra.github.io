@@ -47,20 +47,14 @@ h2,p{
 /* MEDIA AND KEYFRAMES */
 
 @media (max-width: 960px) {
-  #intro{
-    font-size: 50%;
-  }
-  #terminal{
-    font-size: 50%;
+  #intro,#terminal,#terminal2{
+    font-size: 80%;
   }
 }
 
 @media (max-width: 480px) {
-  #intro{
-    font-size: 50%;
-  }
-  #terminal{
-    font-size: 60%;
+  #intro,#terminal,#terminal2{
+    font-size: 80%;
   }
 }
 
