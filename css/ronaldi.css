@@ -46,19 +46,19 @@ h2{
 
 @media (max-width: 960px) {
   #intro{
-    font-size: 50%;
+    font-size: 20%;
   }
   #terminal{
-    font-size: 50%;
+    font-size: 20%;
   }
 }
 
 @media (max-width: 480px) {
   #intro{
-    font-size: 75%;
+    font-size: 30%;
   }
   #terminal{
-    font-size: 75%;
+    font-size: 30%;
   }
 }
 
