@@ -27,7 +27,7 @@ h3{
 }
 
 #intro{
-  color: greenyellow;
+  color: #7dc2ff;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   padding-right: 10px;
@@ -48,12 +48,16 @@ h3{
 }
 
 #outro{
-  color: greenyellow;
+  color: #7dc2ff;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   padding-right: 10px;
   text-align: left;
+}
+
+#socmed{
+  margin-top: 10px;
 }
 
 #socmed a{
@@ -63,7 +67,7 @@ h3{
 }
 
 hr{
-  background-color: yellowgreen;
+  background-color: #7dc2ff;
   width: 75%;
   height: 1px;
   border: 0;
@@ -74,13 +78,13 @@ hr{
 
 @media (max-width: 960px) {
   #page{
-    width: 80%;
+    width: 100%;
   }
 }
 
 @media (max-width: 480px) {
   #page{
-    width: 80%;
+    width: 100%;
   }
 }
 
