@@ -1,7 +1,7 @@
 body{
   background:#222;
   color: #cecece;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #page{
@@ -78,13 +78,13 @@ hr{
 
 @media (max-width: 960px) {
   #page{
-    width: 90%;
+    width: 95%;
   }
 }
 
 @media (max-width: 480px) {
   #page{
-    width: 90%;
+    width: 95%;
   }
 }
 
