@@ -70,14 +70,14 @@ hr{
 /* MEDIA AND KEYFRAMES */
 
 @media (max-width: 960px) {
-  #intro,#terminal,#terminal2{
-    font-size: 80%;
+  #page{
+    width: 80%;
   }
 }
 
 @media (max-width: 480px) {
-  #intro,#terminal,#terminal2{
-    font-size: 80%;
+  #page{
+    width: 80%;
   }
 }
 
