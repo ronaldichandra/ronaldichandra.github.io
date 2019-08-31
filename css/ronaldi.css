@@ -43,27 +43,24 @@ h2,p{
   color: #ff66f0
 }
 
-#terminal2,a{
-  font-style: italic;
-}
 
 /* MEDIA AND KEYFRAMES */
 
 @media (max-width: 960px) {
   #intro{
-    font-size: 20%;
+    font-size: 50%;
   }
   #terminal{
-    font-size: 20%;
+    font-size: 50%;
   }
 }
 
 @media (max-width: 480px) {
   #intro{
-    font-size: 30%;
+    font-size: 50%;
   }
   #terminal{
-    font-size: 30%;
+    font-size: 60%;
   }
 }
 
