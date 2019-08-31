@@ -13,8 +13,8 @@ body{
 h1{
   font-size: 50px;
 }
-h2{
-  font-size: 30px;
+h2,p{
+  font-size: 25px;
 }
 
 #intro{
@@ -38,8 +38,13 @@ h2{
 }
 
 #terminal2 a{
+  font-weight: 500;
   text-decoration: none;
   color: #ff66f0
+}
+
+#terminal2,a{
+  font-style: italic;
 }
 
 /* MEDIA AND KEYFRAMES */
