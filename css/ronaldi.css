@@ -45,20 +45,20 @@ h2{
 /* MEDIA AND KEYFRAMES */
 
 @media (max-width: 960px) {
-  .card{
-    width: 75%;
+  #intro{
+    font-size: 50%;
   }
-  .card2{
-    width: 75%;
+  #terminal{
+    font-size: 50%;
   }
 }
 
 @media (max-width: 480px) {
-  .card{
-    width: 85%;
+  #intro{
+    font-size: 75%;
   }
-  .card2{
-    width: 85%;
+  #terminal{
+    font-size: 75%;
   }
 }
 
