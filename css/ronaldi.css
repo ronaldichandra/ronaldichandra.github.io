@@ -56,6 +56,12 @@ h3{
   text-align: left;
 }
 
+#socmed a{
+  color: #cecece;
+  padding: 5px;
+  font-size: 30px;
+}
+
 hr{
   background-color: yellowgreen;
   width: 75%;
