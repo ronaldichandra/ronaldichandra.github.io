@@ -37,7 +37,7 @@ body{
   font-family: 'Ubuntu', sans-serif;
   transition-duration: .4s;
   text-decoration: underline;
-  text-decoration-color: #004dab;
+  text-decoration-color: #4285F4;
 }
 
 a:link{
@@ -45,7 +45,7 @@ a:link{
 }
 
 a:hover{
-  color: #004dab;
+  color: #4285F4;
 }
 
 a:visited{
@@ -68,7 +68,7 @@ h3{
 }
 
 #intro{
-  color: #004dab;
+  color: #4285F4;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   margin-right: 90px;
@@ -89,7 +89,7 @@ h3{
 }
 
 #outro{
-  color: #004dab;
+  color: #4285F4;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   margin-top: 30px;
@@ -108,7 +108,7 @@ h3{
 }
 
 hr{
-  background-color: #004dab;
+  background-color: #4285F4;
   width: 75%;
   height: 1px;
   border: 0;
