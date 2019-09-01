@@ -6,7 +6,6 @@
     "display" : "minimal-ui",
     "lang" : "en",
     "description" : "I'm a boy who likes Android and Open Source stuff.",
-    "orientation" : "potrait",
     "icons" : [
         {
             "src": "/assets/images/r-01.png",
