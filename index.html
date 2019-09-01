@@ -17,8 +17,8 @@
   <meta name="twitter:site" content="@rnldch">
   <meta name="twitter:creator" content="@rnldch">
   <link rel="stylesheet" href="css/ronaldi.css" async>
-  <link rel="canonical" href="https://rnldch.github.io/" async>
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono&display=swap" rel="stylesheet"> 
+  <link rel="manifest" href="manifest.json">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono&display=swap" rel="stylesheet" async> 
   <script src="https://kit.fontawesome.com/c61f56ea99.js"></script>
 </head>
 <body>
@@ -37,12 +37,15 @@
     </div>
   </div>
   <script>
-    // register ServiceWorker, remember to use absolute path!
-    if (navigator.serviceWorker) {
-      navigator.serviceWorker.register('/sw.js', {scope: '/{repository}/'})
+    if ('serviceWorker' in navigator) {
+      console.log("Will the service worker register?");
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function(reg){
+          console.log("Yes, it did.");
+        }).catch(function(err) {
+          console.log("No it didn't. This happened: ", err)
+        });
     }
-    
-    // --- Application code here ---
-    </script>
+  </script>
 </body>
 </html>

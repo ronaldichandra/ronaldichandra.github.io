@@ -1,0 +1,15 @@
+{
+    "short_name": "ronaldichndr",
+    "name": "ronaldichndr",
+    "icons": [
+      {
+        "src":"pics/fireworks-icon192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#222",
+    "Theme_color": "#000",
+    "display": "standalone"
+  }
