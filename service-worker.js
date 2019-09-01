@@ -26,10 +26,10 @@
             // and adds the response to the cache.           
             // add your entire site to the cache- as in the code below; for offline access
             // If you have some build process for your site, perhaps that could 
+            '/index.html?homescreen=1', //default
             // generate the list of possible URLs that a user might load.               
                     '/', // do not remove this
                     '/index.html', //default
-                    '/index.html?homescreen=1', //default
                     '/?homescreen=1', //default
                     '/css/ronaldi.css',// configure as by your site ; just an example
                     '/images/*',// choose images to keep offline; just an example
