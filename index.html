@@ -3,14 +3,22 @@
 <head>
   
   <title>ronaldichndr</title>
+  <meta name="theme-color" content="#000">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
   <meta name="author" content="Ronaldi Chandra">
-  <meta name="description" content="android,linux,web,ubuntu">
-  <meta name="theme-color" content="#000">
+  <meta name="description" content="I'm currently a Computer Science student at Dharma Putra High School of Informatics and Computer Management in Indonesia. I can little a bit C/C++, HTML5, and CSS3 for now. I love K-POPs and K-Dramas and like playing video games too.">
+  <meta name="keywords" content="ronaldi,rnldch,android,ronaldi chandra,design,zephyrxj,web developer,developer">
   <meta property="og:title" content="Ronaldi Chandra">
-  <meta property="og:description" content="android,linux,web,ubuntu">
+  <meta property="og:url" content="https://rnldch.github.io/">
+  <meta property="og:site_name" content="ronaldichndr">
+  <meta name="article:author" content="Ronaldi Chandra">
+  <meta property="og:description" content="I'm currently a Computer Science student at Dharma Putra High School of Informatics and Computer Management in Indonesia. I can little a bit C/C++, HTML5, and CSS3 for now. I love K-POPs and K-Dramas and like playing video games too.">
   <meta charset="utf-8">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@rnldch">
+  <meta name="twitter:creator" content="@rnldch">
   <link rel="stylesheet" href="css/ronaldi.css">
+  <link rel="canonical" href="https://rnldch.github.io/" />
   <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono&display=swap" rel="stylesheet"> 
   <script src="https://kit.fontawesome.com/c61f56ea99.js"></script>
 </head>
@@ -29,5 +37,13 @@
       <a href="https://twitter.com/rnldch" target="_blank"><i class="fab fa-twitter"></i></a> 
     </div>
   </div>
+  <script>
+    // register ServiceWorker, remember to use absolute path!
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/sw.js', {scope: '/{repository}/'})
+    }
+    
+    // --- Application code here ---
+    </script>
 </body>
 </html>
