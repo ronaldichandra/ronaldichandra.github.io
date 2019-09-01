@@ -6,8 +6,7 @@
     "display" : "fullscreen",
     "lang" : "English",
     "description" : "I'm currently a Computer Science student at Dharma Putra High School of Informatics and Computer Management in Indonesia. I can little a bit C/C++, HTML5, and CSS3 for now. I love K-POPs and K-Dramas and like playing video games too.",
-    "orientation" : "undefined",
-    "generated" : "undefined",
+    "orientation" : "potrait",
     "icons" : [
         {
             "src": "pics/fireworks-icon192x192.png",
