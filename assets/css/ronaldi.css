@@ -1,7 +1,19 @@
 body{
   background:#fff;
   color: #222;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+.darkmode--activated p, .darkmode--activated li {
+  color: #000;
+}
+
+.button {
+  isolation: isolate;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
 }
 
 #page{
