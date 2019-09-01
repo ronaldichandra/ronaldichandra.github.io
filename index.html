@@ -37,15 +37,20 @@
     </div>
   </div>
   <script>
-    if ('serviceWorker' in navigator) {
-      console.log("Will the service worker register?");
-      navigator.serviceWorker.register('service-worker.js')
-        .then(function(reg){
-          console.log("Yes, it did.");
-        }).catch(function(err) {
-          console.log("No it didn't. This happened: ", err)
-        });
-    }
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[PWA Builder] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
   </script>
 </body>
 </html>
