@@ -1,57 +1,70 @@
-// This is the "Offline page" service worker
+/*
+This is a modified version of Ethan Marcotte's service worker (https://ethanmarcotte.com/theworkerofservices.js),
+which is in turn a modified version of Jeremy Keith's service worker (https://adactio.com/serviceworker.js),
+with a few additional edits borrowed from Filament Group's. (https://www.filamentgroup.com/sw.js)
+*/
 
-const CACHE = "pwabuilder-page";
+(function() {
+  const version = 'v4.1';
+  const cacheName = version + 'rnldch';
 
-// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
-const offlineFallbackPage = "offline.html";
+  const STATIC = cacheName + 'static';
+  const PAGES = cacheName + 'pages';
 
-// Install stage sets up the offline page in the cache and opens a new cache
-self.addEventListener("install", function (event) {
-  console.log("[PWA Builder] Install Event processing");
+  const staticAssets = [
+    '/',
+    '/offline.html'
+  ];
 
-  event.waitUntil(
-    caches.open(CACHE).then(function (cache) {
-      console.log("[PWA Builder] Cached offline page during install");
-
-      if (offlineFallbackPage === "offline.html") {
-        return cache.add(new Response("TODO: Update the value of the offlineFallbackPage constant in the serviceworker."));
-      }
-
-      return cache.add(offlineFallbackPage);
-    })
-  );
-});
-
-// If any fetch fails, it will show the offline page.
-self.addEventListener("fetch", function (event) {
-  if (event.request.method !== "GET") return;
-
-  event.respondWith(
-    fetch(event.request).catch(function (error) {
-      // The following validates that the request was for a navigation to a new document
-      if (
-        event.request.destination !== "document" ||
-        event.request.mode !== "navigate"
-      ) {
-        return;
-      }
-
-      console.error("[PWA Builder] Network request Failed. Serving offline page " + error);
-      return caches.open(CACHE).then(function (cache) {
-        return cache.match(offlineFallbackPage);
-      });
-    })
-  );
-});
-
-// This is an event that can be fired from your page to tell the SW to update the offline page
-self.addEventListener("refreshOffline", function () {
-  const offlinePageRequest = new Request(offlineFallbackPage);
-
-  return fetch(offlineFallbackPage).then(function (response) {
-    return caches.open(CACHE).then(function (cache) {
-      console.log("[PWA Builder] Offline page updated from refreshOffline event: " + response.url);
-      return cache.put(offlinePageRequest, response);
+  function updateStatic() {
+    return caches.open(STATIC).then(cache => {
+      return cache.addAll(
+        staticAssets.map(url => new Request(url, { credentials: 'include' }))
+      );
     });
+  }
+
+  function clearCaches() {
+    return caches.keys().then(keys => {
+      return Promise.all(
+        keys
+          .filter(key => key.indexOf(version) !== 0)
+          .map(key => caches.delete(key))
+      );
+    });
+  }
+
+  self.addEventListener('install', event => {
+    event.waitUntil(updateStatic().then(() => self.skipWaiting()));
   });
-});
+
+  self.addEventListener('activate', event => {
+    event.waitUntil(clearCaches().then(() => self.clients.claim()));
+  });
+
+  self.addEventListener('fetch', event => {
+    const request = event.request;
+    const url = new URL(request.url);
+
+    if (request.method !== 'GET') return;
+
+    if (request.headers.get('Accept').includes('text/html')) {
+      event.respondWith(
+        fetch(request)
+          .then(response => {
+            let copy = response.clone();
+            caches
+              .open(staticAssets.includes(url.pathname) ? STATIC : PAGES)
+              .then(cache => cache.put(request, copy));
+            return response;
+          })
+          .catch(() => {
+            return caches
+              .match(request)
+              .then(response => response || caches.match('/offline.html'));
+          })
+      );
+      return;
+    }
+  });
+})();
