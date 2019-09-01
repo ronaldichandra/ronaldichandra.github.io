@@ -12,10 +12,14 @@ body{
 }
 
 #content{
-  margin-top: 13%;  
+  margin-top: 10%;
 }
 
-a{
+#header{
+  margin-bottom: 30px;
+}
+
+#header a,a{
   font-size: 18px;
   margin: 5px 5px 5px 0px;
   font-family: 'Ubuntu', sans-serif;
