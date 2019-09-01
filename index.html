@@ -67,11 +67,9 @@
   </script>
     <script>
         let installPromptEvent;
-
         window.addEventListener('beforeinstallprompt', (event) => {
         event.preventDefault();
         installPromptEvent = event;
-        document.querySelector('#install-button').disabled = true;
         });
     </script> 
 </body>
