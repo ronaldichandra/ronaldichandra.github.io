@@ -6,13 +6,15 @@ with a few additional edits borrowed from Filament Group's. (https://www.filamen
 
 (function() {
   const version = 'v4.1';
-  const cacheName = version + 'rnldch';
+  const cacheName = version + 'ronaldichndr';
 
   const STATIC = cacheName + 'static';
   const PAGES = cacheName + 'pages';
 
   const staticAssets = [
     '/',
+    '/index.html',
+    '/about.html',
     '/offline.html'
   ];
 

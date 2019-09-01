@@ -1,6 +1,6 @@
 body{
-  background:#222;
-  color: #cecece;
+  background:#fff;
+  color: #222;
   overflow: hidden;
 }
 
@@ -12,7 +12,32 @@ body{
 }
 
 #content{
-  margin-top: 20%;  
+  margin-top: 13%;  
+}
+
+a{
+  font-size: 18px;
+  margin: 5px 5px 5px 0px;
+  font-family: 'Ubuntu', sans-serif;
+  transition-duration: .4s;
+  text-decoration: underline;
+  text-decoration-color: #5294ff;
+}
+
+a:link{
+  color: #222;
+}
+
+a:hover{
+  color: #5294ff;
+}
+
+a:visited{
+  color: #222;
+}
+
+a:active{
+  color: #222;
 }
 
 h1{
@@ -27,7 +52,7 @@ h3{
 }
 
 #intro{
-  color: #7dc2ff;
+  color: #5294ff;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   margin-right: 90px;
@@ -36,7 +61,7 @@ h3{
 
 #intro::after{
   content:'\2009\00AC';
-  opacity: .5;
+  opacity: .7;
 }
 
 #desc{
@@ -48,7 +73,7 @@ h3{
 }
 
 #outro{
-  color: #7dc2ff;
+  color: #5294ff;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   margin-top: 30px;
@@ -57,17 +82,17 @@ h3{
 }
 
 #socmed{
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 #socmed a{
-  color: #cecece;
+  color: #696969;
   padding: 5px;
   font-size: 30px;
 }
 
 hr{
-  background-color: #7dc2ff;
+  background-color: #5294ff;
   width: 75%;
   height: 1px;
   border: 0;
@@ -85,19 +110,4 @@ hr{
   #page{
     width: 95%;
   }
-}
-
-@keyframes fade {
-  from{opacity: 0}
-  to{to: 1}
-}
-
-@-moz-keyframes fade {
-  from{opacity: 0}
-  to{to: 1}
-}
-
-@-webkit-keyframes fade {
-  from{opacity: 0}
-  to{to: 1}
 }
