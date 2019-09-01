@@ -1,6 +1,6 @@
 {"short_name" : "ronaldichndr",
     "name" : "ronaldichndr",
-    "start_url" : "/?utm_source=homescreen",
+    "start_url" : "/",
     "background_color" : "#fff",
     "theme_color" : "#fff",
     "display" : "minimal-ui",
