@@ -1,2 +1,4 @@
-User-agent:*
+User-agent: Googlebot
+Allow: /
 Disallow: /css/ronaldi.css
+
