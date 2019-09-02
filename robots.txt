@@ -1,4 +1,6 @@
-User-agent: Googlebot
-Allow: /
-Disallow: /css/ronaldi.css
+Sitemap: http://rnldch.github.io/sitemap.xml
 
+User-agent: *
+Allow: /
+Disallow: /sw.js
+Disallow: /google0440d1465317c763.html
