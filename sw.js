@@ -14,8 +14,8 @@ with a few additional edits borrowed from Filament Group's. (https://www.filamen
   const staticAssets = [
     '/',
     '/index.html',
-    '/about.html',
-    '/offline.html'
+    '/me/about.html',
+    '/me/offline.html'
   ];
 
   function updateStatic() {
@@ -63,7 +63,7 @@ with a few additional edits borrowed from Filament Group's. (https://www.filamen
           .catch(() => {
             return caches
               .match(request)
-              .then(response => response || caches.match('/offline.html'));
+              .then(response => response || caches.match('/me/offline.html'));
           })
       );
       return;
