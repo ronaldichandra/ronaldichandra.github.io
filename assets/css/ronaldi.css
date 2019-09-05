@@ -27,17 +27,24 @@ body{
   margin-top: 10%;
 }
 
-#header{
-  margin-bottom: 30px;
-}
-
-#header a,a{
+#header a{
   font-size: 18px;
   margin: 5px 5px 5px 0px;
   font-family: 'Ubuntu', sans-serif;
   transition-duration: .4s;
   text-decoration: underline;
   text-decoration-color: #4285F4;
+  margin-bottom: 30px;
+}
+
+a{
+  font-size: 18px;
+  margin: 5px 5px 5px 0px;
+  font-family: 'Ubuntu', sans-serif;
+  transition-duration: .4s;
+  text-decoration: underline;
+  text-decoration-color: #4285F4;
+  isolation: isolate;
 }
 
 a:link{
@@ -45,6 +52,7 @@ a:link{
 }
 
 a:hover{
+  isolation: isolate;
   color: #4285F4;
 }
 
@@ -73,6 +81,7 @@ h3{
   font-weight: bold;
   margin-right: 90px;
   text-align: left;
+  isolation: isolate;
 }
 
 #intro::after{
@@ -95,6 +104,7 @@ h3{
   margin-top: 30px;
   padding-right: 10px;
   text-align: left;
+  isolation: isolate;
 }
 
 #socmed{
@@ -112,6 +122,7 @@ hr{
   width: 75%;
   height: 1px;
   border: 0;
+  isolation: isolate;
 }
 
 .back:after{
