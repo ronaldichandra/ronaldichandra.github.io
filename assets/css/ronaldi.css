@@ -32,7 +32,6 @@ body{
   margin: 5px 5px 5px 0px;
   font-family: 'Ubuntu', sans-serif;
   text-decoration: underline;
-  text-decoration-color: #4285F4;
   transition-duration: .4s;
   margin-bottom: 30px;
 }
