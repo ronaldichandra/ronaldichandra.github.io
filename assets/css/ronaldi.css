@@ -1,6 +1,5 @@
 body{
   background:#fff;
-  color: #222;
   /* overflow: hidden; */
 }
 
@@ -28,39 +27,30 @@ body{
 }
 
 #header a{
+  color: #000;
   font-size: 18px;
   margin: 5px 5px 5px 0px;
   font-family: 'Ubuntu', sans-serif;
-  transition-duration: .4s;
   text-decoration: underline;
   text-decoration-color: #4285F4;
+  transition-duration: .4s;
   margin-bottom: 30px;
 }
 
-a{
-  font-size: 18px;
-  margin: 5px 5px 5px 0px;
-  font-family: 'Ubuntu', sans-serif;
-  transition-duration: .4s;
-  text-decoration: underline;
-  text-decoration-color: #4285F4;
-  isolation: isolate;
-}
-
-a:link{
+#header a:link{
   color: #222;
 }
 
-a:hover{
+#header a:hover{
   isolation: isolate;
   color: #4285F4;
 }
 
-a:visited{
+#header a:visited{
   color: #222;
 }
 
-a:active{
+#header a:active{
   color: #222;
 }
 
