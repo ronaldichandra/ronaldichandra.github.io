@@ -54,8 +54,8 @@ h3{
 
 #intro{
   color: #4285F4;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
   margin-right: 90px;
   text-align: left;
 }
@@ -75,7 +75,7 @@ h3{
 
 #outro{
   color: #4285F4;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin-top: 30px;
   padding-right: 10px;
