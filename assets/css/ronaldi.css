@@ -73,6 +73,22 @@ h3{
   text-align: left;
 }
 
+#desc a:link{
+  color: #222;
+}
+
+#desc a:hover{
+  color: #4285F4;
+}
+
+#desc a:visited{
+  color: #222;
+}
+
+#desc a:active{
+  color: #4285F4;
+}
+
 #outro{
   color: #4285F4;
   font-family: 'Roboto', sans-serif;
@@ -90,6 +106,17 @@ h3{
   color: #696969;
   padding: 3px;
   font-size: 30px;
+}
+
+#desc a{
+  color: #000;
+  font-size: 18px;
+  margin: 5px 5px 5px 0px;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #4285F4;
+  transition-duration: .4s;
+  margin-bottom: 30px;
 }
 
 code{
