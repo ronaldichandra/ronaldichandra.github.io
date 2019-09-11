@@ -5,7 +5,7 @@ body{
 
 #page{
   width: 620px;
-  height: 500px;
+  height: 450px;
   margin: auto;
   /* border: 1px solid white; */
 }
@@ -133,6 +133,19 @@ hr{
   width: 75%;
   height: 1px;
   border: 0;
+}
+
+#footer{
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#footer p{
+  display: block;
+  font-weight: 100;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .back:after{
