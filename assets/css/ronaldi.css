@@ -1,5 +1,5 @@
 body{
-  background:#fff;
+  background:#121212;
   /* overflow: hidden; */
 }
 
@@ -15,7 +15,7 @@ body{
 }
 
 #header a{
-  color: #000;
+  color: #fff;
   font-size: 18px;
   margin: 5px 5px 5px 0px;
   font-family: 'Ubuntu', sans-serif;
@@ -26,7 +26,7 @@ body{
 }
 
 #header a:link{
-  color: #222;
+  color: #fff;
 }
 
 #header a:hover{
@@ -34,7 +34,7 @@ body{
 }
 
 #header a:visited{
-  color: #222;
+  color: #fff;
 }
 
 #header a:active{
@@ -67,6 +67,7 @@ h3{
 }
 
 #desc{
+  color: #fff;
   animation: fade 1.5s ease-in-out;
   padding-top: 15px;
   padding-right: 30px;
@@ -76,7 +77,7 @@ h3{
 }
 
 #desc a:link{
-  color: #222;
+  color: #fff;
 }
 
 #desc a:hover{
@@ -84,7 +85,7 @@ h3{
 }
 
 #desc a:visited{
-  color: #222;
+  color: #fff;
 }
 
 #desc a:active{
@@ -107,13 +108,13 @@ h3{
 }
 
 #socmed a{
-  color: #696969;
+  color: #fff;
   padding: 3px;
   font-size: 30px;
 }
 
 #desc a{
-  color: #000;
+  color: #fff;
   font-size: 18px;
   margin: 5px 5px 5px 0px;
   font-family: 'Ubuntu', sans-serif;
