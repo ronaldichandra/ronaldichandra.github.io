@@ -1,1 +1,1 @@
-alert("Annyeong!");
+console.log("Annyeong!");
