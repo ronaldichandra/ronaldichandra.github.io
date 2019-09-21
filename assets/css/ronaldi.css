@@ -22,7 +22,6 @@ body{
   text-decoration: underline;
   text-decoration-color: #4285F4;
   transition-duration: .4s;
-  margin-bottom: 30px;
 }
 
 #header a:link{
