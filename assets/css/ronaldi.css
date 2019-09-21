@@ -160,7 +160,7 @@ hr{
   z-index:-1;
   line-height:1;
   font-size:10vmax;
-  opacity:.010;
+  opacity:.030;
   font-weight: 900;
   content:attr(text);
   text-overflow:clip;
