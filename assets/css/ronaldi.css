@@ -11,7 +11,11 @@ body{
 }
 
 #content{
-  margin-top: 10%;
+  margin-top: 0;
+}
+
+#header{
+  margin-top: 15%;
 }
 
 #header a{
@@ -68,7 +72,6 @@ h3{
 #desc{
   color: #fff;
   animation: fade 1.5s ease-in-out;
-  padding-top: 15px;
   padding-right: 30px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 100;
