@@ -1,5 +1,5 @@
 body{
-  background:#121212;
+  background:#2b334f;
   /* overflow: hidden; */
 }
 
@@ -24,7 +24,7 @@ body{
   margin: 15px 15px 0px 0px;
   font-family: 'Ubuntu', sans-serif;
   text-decoration: underline;
-  text-decoration-color: #4285F4;
+  text-decoration-color: #fcb052;
   transition-duration: .4s;
 }
 
@@ -33,7 +33,7 @@ body{
 }
 
 #header a:hover{
-  color: #4285F4;
+  color: #fcb052;
 }
 
 #header a:visited{
@@ -41,7 +41,7 @@ body{
 }
 
 #header a:active{
-  color: #4285F4;
+  color: #fcb052;
 }
 
 h1{
@@ -57,7 +57,7 @@ h3{
 
 #intro{
   animation: fade 500ms ease-in-out;
-  color: #4285F4;
+  color: #fcb052;
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
   margin-right: 90px;
@@ -91,12 +91,12 @@ h3{
 }
 
 #desc a:active{
-  color: #4285F4;
+  color: #fcb052;
 }
 
 #outro{
   animation: fade 2.5s ease-in-out;
-  color: #4285F4;
+  color: #fcb052;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin-top: 30px;
@@ -121,18 +121,18 @@ h3{
   margin: 5px 5px 5px 0px;
   font-family: 'Ubuntu', sans-serif;
   text-decoration: underline;
-  text-decoration-color: #4285F4;
+  text-decoration-color: #fcb052;
   transition-duration: .4s;
   margin-bottom: 30px;
 }
 
 code{
-  color: #4285F4;
+  color: #fcb052;
   font-weight: 700;
 }
 
 hr{
-  background-color: #4285F4;
+  background-color: #fcb052;
   width: 75%;
   height: 1px;
   border: 0;
