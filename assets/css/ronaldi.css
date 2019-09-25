@@ -60,6 +60,11 @@ figure img{
   font-size: 18px;
 }
 
+#page .error{
+  color: #b37bca;
+  font-size: 30px;
+}
+
 .social{
   display: inline;
 }

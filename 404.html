@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>404 Page Not Found!</title>
+  <title>404 URL Not Found!</title>
+
+                              <!-- FAVICON -->
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-icon-72x72.png">
@@ -11,22 +13,24 @@
   <link rel="apple-touch-icon" sizes="144x144" href="/assets/imagesapple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/android-icon-192x192.png">
   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+
+                                    <!-- THEME AND SEO -->
   <meta name="msapplication-TileColor" content="#2b334f">
-  <meta name="msapplication-TileImage" content="/assets/image/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#2b334f">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Ronaldi Chandra">
   <meta name="description" content="Just teenager who likes Android, Web, Open Source things.">
   <meta name="keywords" content="ronaldi, rnldch, ronaldichndr, android, ronaldi chandra, design, web developer, developer">
   <meta property="og:title" content="Ronaldi Chandra">
   <meta property="og:url" content="https://rnldch.github.io/">
-  <meta property="og:image" content="https://rnldch.github.io/assets/images/r-01.png">
+  <meta property="og:image" content="https://rnldch.github.io/assets/images/jisoo.jpg">
   <meta property="og:site_name" content="rnldch">
   <meta name="article:author" content="Ronaldi Chandra">
   <meta property="og:description" content="Just teenager who likes Android, Web, Open Source things.">
@@ -35,34 +39,35 @@
   <meta name="twitter:site" content="@rnldch">
   <meta name="twitter:creator" content="@rnldch">
   <meta name="robots" content="index,follow">
+
+                                  <!-- SOURCES -->
   <link rel="canonical" href="https://rnldch.github.io"/>
-  <link rel="stylesheet" href="/assets/css/ronaldi.css">
+  <link rel="stylesheet" href="assets/css/ronaldi.css">
   <link rel="manifest" href="/assets/json/manifest.json">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Ubuntu:300&display=swap" rel="stylesheet"> 
-  <script src="/assets/js/ronaldi.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Ubuntu:300&display=swap" rel="stylesheet"> 
   <script src="https://kit.fontawesome.com/c61f56ea99.js"></script>
+  <script></script>
 </head>
+
+<!-- MAIN PAGE -->
 <body>
+<div id="particles-js" >
   <div id="page">
-    <div id="content">
-      <div id="header">
-        <a href="/">Home</a>
-        <a href="/about/me">About</a>
-      </div>
-        <h1 id="intro">Hey, that's wrong URL!</h1>
-        <hr align="left">
-        <h2 id="desc">Please check the URL or check your internet connection, bro :)</h2>
-    </div>
+    <h1 class="error">404 URL Not Found, bro!</h1>
+    <h2 class="bio">Please check the url or your connection, bro. :)</h2>
   </div>
-  <div class="back" text="error error error error error error error error error error error error error error error error error error error error error error error error error error error error error"></div>
+</div>
+                      <!-- PWA INSTALLED -->
   <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')
           .then(function() {
-                console.log('Service Worker Registered');
+                console.log('Service Worker berhasil di-registrasi');
           });
       }
   </script>
-  <script src="//instant.page/2.0.0" type="module" defer integrity="sha384-D7B5eODAUd397+f4zNFAVlnDNDtO1ppV8rPnfygILQXhqu3cUndgHvlcJR2Bhig8"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+<script src="//instant.page/2.0.0" type="module" defer integrity="sha384-D7B5eODAUd397+f4zNFAVlnDNDtO1ppV8rPnfygILQXhqu3cUndgHvlcJR2Bhig8"></script>
 </body>
 </html>
