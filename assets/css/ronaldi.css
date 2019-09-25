@@ -33,8 +33,8 @@ figure{
 }
 
 figure img{
-  width:256;
-  height:256;
+  width:256px;
+  height:256px;
   border-radius: 100%;
 }
 
@@ -64,8 +64,8 @@ figure img{
     background-repeat: no-repeat;
   }
   figure img{
-    width:128;
-    height:128;
+    width:128px;
+    height:128px;
     border-radius: 100%;
   }
   #page .name{
