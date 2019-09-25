@@ -1,201 +1,44 @@
-body{
-  background:#2b334f;
-  /* overflow: hidden; */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  overflow: hidden;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #050505;
+  background-repeat: no-repeat;
 }
 
 #page{
-  width: 620px;
-  height: 450px;
-  margin: auto;
-  /* border: 1px solid white; */
-}
-
-#content{
-  margin-top: 0;
-}
-
-#header{
-  margin-top: 15%;
-}
-
-#header a{
-  color: #fff;
-  font-size: 19px;
-  margin: 15px 15px 0px 0px;
-  font-family: 'Ubuntu', sans-serif;
-  text-decoration: underline;
-  text-decoration-color: #fcb052;
-  transition-duration: .4s;
-}
-
-#header a:link{
-  color: #fff;
-}
-
-#header a:hover{
-  color: #fcb052;
-}
-
-#header a:visited{
-  color: #fff;
-}
-
-#header a:active{
-  color: #fcb052;
-}
-
-h1{
-  font-size: 32px;
-}
-h2,p{
-  font-size: 18px;
-}
-
-h3{
-  font-size: 25px;
-}
-
-#intro{
-  animation: fade 500ms ease-in-out;
-  color: #fcb052;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
-  margin-right: 90px;
-  text-align: left;
-}
-
-#intro::after{
-  content:'\2009\00AC';
-  opacity: .7;
-}
-
-#desc{
-  color: #fff;
-  animation: fade 1.5s ease-in-out;
-  padding-right: 30px;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 100;
-  text-align: left;
-}
-
-#desc a:link{
-  color: #fff;
-}
-
-#desc a:hover{
-  color: #fcb052;
-}
-
-#desc a:visited{
-  color: #fff;
-}
-
-#desc a:active{
-  color: #fcb052;
-}
-
-#outro{
-  animation: fade 2.5s ease-in-out;
-  color: #fcb052;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  margin-top: 30px;
-  padding-right: 10px;
-  text-align: left;
-}
-
-#socmed{
-  animation: fade 3.5s ease-in-out;
-  margin-top: -10px;
-}
-
-#socmed a{
-  color: #fff;
-  padding: 3px;
-  font-size: 30px;
-}
-
-#desc a{
-  color: #fff;
-  font-size: 18px;
-  margin: 5px 5px 5px 0px;
-  font-family: 'Ubuntu', sans-serif;
-  text-decoration: underline;
-  text-decoration-color: #fcb052;
-  transition-duration: .4s;
-  margin-bottom: 30px;
-}
-
-code{
-  color: #fcb052;
-  font-weight: 700;
-}
-
-hr{
-  background-color: #fcb052;
-  width: 75%;
-  height: 1px;
-  border: 0;
-}
-
-#footer{
-  height: 100%;
-  width: 100%;
-  left: 0;
-  bottom: 0;
+  transform: translate(-50%, -50%); 
+  width: 260px;
+  top: 45%;
+  left: 50%;
+  right: 50%;
+  position: absolute;
+  color:#fff;
   text-align: center;
 }
 
-#footer p{
-  display: block;
-  font-weight: 100;
-  font-family: 'Ubuntu', sans-serif;
+#page .name{
+  font-size: 30px;
 }
 
-.back:after{
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
-  position:fixed;
-  top:-10%;
-  left:-10%;
-  width:110%;
-  height:110%;
-  z-index:-1;
-  line-height:1;
-  font-size:10vmax;
-  opacity:.030;
-  font-weight: 100;
-  content:attr(text);
-  text-overflow:clip;
-  overflow:hidden;
-  word-break:break-all
+#page .bio{
+  margin: 20px 0 20px 0;
+  color: rgb(192, 192, 192);
+  font-size: 15px;
+}
+
+#page .desc{
+  color: #b37bca;
+  font-size: 13px;
 }
 
 /* MEDIA AND KEYFRAMES */
-
-@media (max-width: 960px) {
-  #page{
-    width: 95%;
-  }
-}
-
-@media (max-width: 480px) {
-  #page{
-    width: 95%;
-  }
-}
-
-@keyframes fade {
-  0% { opacity: 0;}
-  100% {opacity: 1;}
-}
-
-@-webkit-keyframes fade {
-  0% { opacity: 0;}
-  100% {opacity: 1;}
-}
-
-@-moz-keyframes fade {
-  0% { opacity: 0;}
-  100% {opacity: 1;}
-}
