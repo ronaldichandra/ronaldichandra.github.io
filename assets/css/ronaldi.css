@@ -76,7 +76,9 @@ figure img{
 }
 
 .social a:hover{
-  animation: ;
+  transition-duration: .5s;
+  font-size: 38px;
+  color: #b37bca;
 }
 
 /* MEDIA AND KEYFRAMES */
@@ -107,5 +109,3 @@ figure img{
   }
 
 }
-
-@keyframes
