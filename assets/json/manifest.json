@@ -8,7 +8,7 @@
     "description" : "Just teenager who likes Android, Web, Open Source things.",
     "icons" : [
         {
-            "src": "/assets/images/jisoo512.jpg",
+            "src": "/assets/images/jisoo512.png",
             "sizes": "512x512",
             "types": "images/png"
         },
