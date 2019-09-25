@@ -1,6 +1,6 @@
 particlesJS("particles-js", {
   particles: {
-    number: { value: 160, density: { enable: true, value_area: 800 } },
+    number: { value: 161, density: { enable: true, value_area: 800 } },
     color: { value: "#b37bca" },
     shape: {
       type: "circle",
@@ -39,12 +39,15 @@ particlesJS("particles-js", {
   interactivity: {
     detect_on: "canvas",
     events: {
-      onhover: { enable: true, mode: "bubble" },
+      onhover: { enable: true, mode: "grab" },
       onclick: { enable: true, mode: "repulse" },
       resize: true
     },
     modes: {
-      grab: { distance: 400, line_linked: { opacity: 1 } },
+      grab: {
+        distance: 164.69594594594582,
+        line_linked: { opacity: 0.5564258626740971 }
+      },
       bubble: { distance: 250, size: 0, duration: 2, opacity: 0, speed: 3 },
       repulse: { distance: 400, duration: 0.4 },
       push: { particles_nb: 4 },
