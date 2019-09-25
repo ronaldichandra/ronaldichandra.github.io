@@ -19,7 +19,7 @@ body {
 
 #page{
   transform: translate(-50%, -50%); 
-  width: 260px;
+  width: 350px;
   top: 45%;
   left: 50%;
   right: 50%;
@@ -52,5 +52,16 @@ body {
 
   body {
     background-repeat: no-repeat;
+  }
+  #page .name{
+    font-size: 20px;
+  }
+  
+  #page .bio{
+    font-size: 15px;
+  }
+  
+  #page .desc{
+    font-size: 13px;
   }
 }
