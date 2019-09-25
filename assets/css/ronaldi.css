@@ -43,7 +43,7 @@ figure img{
 #page .bio{
   margin: 20px 0 20px 0;
   color: rgb(192, 192, 192);
-  font-size: 15px;
+  font-size: 18px;
 }
 
 #page .desc{
@@ -62,11 +62,11 @@ figure img{
     background-repeat: no-repeat;
   }
   #page .name{
-    font-size: 20px;
+    font-size: 23px;
   }
   
   #page .bio{
-    font-size: 15px;
+    font-size: 18px;
   }
   
   #page .desc{
