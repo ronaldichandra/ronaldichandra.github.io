@@ -44,3 +44,13 @@ body {
 }
 
 /* MEDIA AND KEYFRAMES */
+
+@media only screen and (max-width: 768px) {
+  html {
+    height: 100%;
+  }
+
+  body {
+    background-repeat: no-repeat;
+  }
+}
