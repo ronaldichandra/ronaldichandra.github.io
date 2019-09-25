@@ -1,11 +1,11 @@
 {"short_name" : "rnldch",
     "name" : "rnldch",
     "start_url" : "/",
-    "background_color" : "#2b334f",
-    "theme_color" : "#fcb052",
+    "background_color" : "#251124",
+    "theme_color" : "#b37bca",
     "display" : "minimal-ui",
     "lang" : "en",
-    "description" : "I'm a boy who likes Android and Open Source stuff.",
+    "description" : "Just teenager who likes Android, Web, Open Source things.",
     "icons" : [
         {
             "src": "/assets/images/jisoo",

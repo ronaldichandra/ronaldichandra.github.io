@@ -5,8 +5,8 @@ with a few additional edits borrowed from Filament Group's. (https://www.filamen
 */
 
 (function() {
-  const version = 'v4.1';
-  const cacheName = version + 'ronaldichndr';
+  const version = 'v5';
+  const cacheName = version + 'rnldch';
 
   const STATIC = cacheName + 'static';
   const PAGES = cacheName + 'pages';
@@ -14,8 +14,6 @@ with a few additional edits borrowed from Filament Group's. (https://www.filamen
   const staticAssets = [
     '/',
     '/index.html',
-    '/about/me.html',
-    '/about/offline.html'
   ];
 
   function updateStatic() {
@@ -63,7 +61,7 @@ with a few additional edits borrowed from Filament Group's. (https://www.filamen
           .catch(() => {
             return caches
               .match(request)
-              .then(response => response || caches.match('/about/offline.html'));
+              .then(response => response || caches.match('/404.html'));
           })
       );
       return;
