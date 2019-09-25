@@ -43,6 +43,7 @@ figure img{
 }
 
 #page .bio{
+  font-family: 'Share Tech Mono', monospace;
   margin: 20px 0 20px 0;
   color: rgb(192, 192, 192);
   font-size: 18px;
@@ -51,6 +52,26 @@ figure img{
 #page .desc{
   color: #b37bca;
   font-size: 13px;
+}
+
+#page .end{
+  margin: 20px 0 20px 0;
+  color: rgb(192, 192, 192);
+  font-size: 18px;
+}
+
+.social{
+  display: inline;
+}
+
+.social a{
+  margin: 0 3px 0 3px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.social a:hover{
+  animation: ;
 }
 
 /* MEDIA AND KEYFRAMES */
@@ -81,3 +102,5 @@ figure img{
   }
 
 }
+
+@keyframes
