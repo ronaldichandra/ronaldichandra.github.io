@@ -28,6 +28,14 @@ body {
   text-align: center;
 }
 
+figure{
+  display: block;
+}
+
+figure img{
+  border-radius: 100%;
+}
+
 #page .name{
   font-size: 30px;
 }
