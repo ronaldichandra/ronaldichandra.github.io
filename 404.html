@@ -46,7 +46,24 @@
   <link rel="manifest" href="/assets/json/manifest.json">
   <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Ubuntu:300&display=swap" rel="stylesheet"> 
   <script src="https://kit.fontawesome.com/c61f56ea99.js"></script>
-  <script></script>
+  <script>
+    document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            alert('Check my Github for the source code :)');
+            return false;
+        } else {
+            return true;
+        }
+  };</script>
+  <script>
+  document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+  }, false);
+  </script>
 </head>
 
 <!-- MAIN PAGE -->
