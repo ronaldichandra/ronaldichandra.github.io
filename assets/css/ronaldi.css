@@ -1,5 +1,5 @@
 html{
-  background-color: #251124;
+  background-color: #000;
 }
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -13,7 +13,7 @@ body {
 #particles-js {
   width: 100%;
   height: 100%;
-  background-color: #1e101e;
+  background-color: #000;
   background-repeat: no-repeat;
 }
 
@@ -51,7 +51,7 @@ figure img{
 }
 
 #page .desc{
-  color: #b37bca;
+  color: rgb(175, 174, 174);
   font-size: 13px;
 }
 
@@ -62,7 +62,7 @@ figure img{
 }
 
 #page .error{
-  color: #b37bca;
+  color: #fff;
   font-size: 30px;
 }
 
@@ -79,7 +79,7 @@ figure img{
 .social a:hover{
   transition-duration: .5s;
   font-size: 38px;
-  color: #b37bca;
+  color: #fff;
 }
 
 /* MEDIA AND KEYFRAMES */
