@@ -1,14 +1,14 @@
 {"short_name" : "rnldch",
     "name" : "rnldch",
     "start_url" : "/",
-    "background_color" : "#251124",
-    "theme_color" : "#b37bca",
+    "background_color" : "#000",
+    "theme_color" : "#fff",
     "display" : "minimal-ui",
     "lang" : "en",
     "description" : "Just teenager who likes Android, Web, Open Source things.",
     "icons" : [
         {
-            "src": "/assets/images/jisoo512.png",
+            "src": "/assets/images/xyz.png",
             "sizes": "512x512",
             "types": "images/png"
         },
