@@ -5,10 +5,10 @@
     "theme_color" : "#fff",
     "display" : "minimal-ui",
     "lang" : "en",
-    "description" : "Just teenager who likes Android, Web, Open Source things.",
+    "description" : "Just a boy who likes to Android and Web things.",
     "icons" : [
         {
-            "src": "/assets/images/xyz.png",
+            "src": "/assets/images/ms-icon-310x310.png",
             "sizes": "512x512",
             "types": "images/png"
         },
