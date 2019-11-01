@@ -1,52 +1,40 @@
 html{
-  background-color: #3A3D4C;
-}
-body {
-  overflow: hidden;
-  font-family: 'Josefin Sans', sans-serif;
-  width: 100%;
-  height: 100%;
-  -webkit-text-size-adjust: 100%;
+  background-color:#3A3D4C;
 }
 
-#page{
-  transform: translate(-50%, -50%); 
-  width: 100%;
-  left: 50%;
-  top: 50%;;
-  right: 50%;
-  position: absolute;
-  color:#fff;
+main{
+  margin-top: 250px;
+  color: greenyellow;
   text-align: center;
 }
 
-#page .name{
-  font-size: 100px;
-}
-
-#page > .error{
-  font-size: 100px;
-}
-
-#page .desc{
-  font-family: 'Robot', sans-serif;
+main > .desc{
+  color: pink;
+  display: inline;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 300; 
-  margin-top: -60px;
   font-size: 30px;
 }
 
-.social{
+main > .desc2{
+  display: inline;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300; 
+  font-size: 30px;
+}
+
+main > .social{
   display: inline-block;
 }
 
-.social a{
+main > .social a{
   margin: 0 6px 0 6px;
   color: #fff;
   font-size: 50px;
 }
 
 
-.social a:hover{
+main > .social a:hover{
   transition-duration: .5s;
   font-size: 38px;
 }
@@ -54,18 +42,21 @@ body {
 /* MEDIA AND KEYFRAMES */
 
 @media only screen and (max-width: 768px) {
-  body {
-    background-repeat: no-repeat;
-  }
-
   .social a{
     font-size: 40px;
   }
-
-  #page .name{
-  font-size: 30px;
-}
-#page .name{
-  font-size: 23px;
-}
+  main > .desc{
+    color: pink;
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300; 
+    font-size: 20px;
+  }
+  
+  main > .desc2{
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300; 
+    font-size: 20px;
+  }
 }
