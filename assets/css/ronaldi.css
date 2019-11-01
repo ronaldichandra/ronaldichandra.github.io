@@ -43,12 +43,12 @@ main > .social a:hover{
 
 @media only screen and (max-width: 768px) {
   main .desc {
-    font-size: 30px;
+    font-size: 40px;
   }
   main .desc2{
-    font-size: 10px;
+    font-size: 28px;
   }
   main .social a{
-    font-size: 15px;
+    font-size: 28px;
   }
 }
