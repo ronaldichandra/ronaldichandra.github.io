@@ -30,13 +30,13 @@ main > .social{
 main > .social a{
   margin: 0 6px 0 6px;
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 
 main > .social a:hover{
   transition-duration: .5s;
-  font-size: 38px;
+  font-size: 30px;
 }
 
 /* MEDIA AND KEYFRAMES */
@@ -46,9 +46,9 @@ main > .social a:hover{
     font-size: 40px;
   }
   main .desc2{
-    font-size: 28px;
+    font-size: 20px;
   }
   main .social a{
-    font-size: 28px;
+    font-size: 30px;
   }
 }
