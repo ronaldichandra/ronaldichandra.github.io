@@ -8,7 +8,7 @@ main{
   text-align: center;
 }
 
-main > .desc{
+main .desc{
   display: block;
   color: rgb(252, 145, 163);
   font-family: 'Josefin Sans', sans-serif;
@@ -42,13 +42,13 @@ main > .social a:hover{
 /* MEDIA AND KEYFRAMES */
 
 @media only screen and (max-width: 768px) {
-  .desc {
+  main .desc {
     font-size: 30px;
   }
-  .desc2{
+  main .desc2{
     font-size: 15px;
   }
-  .social{
+  main .social{
     font-size: 15px;
   }
 }
