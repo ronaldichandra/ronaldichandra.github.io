@@ -46,9 +46,9 @@ main > .social a:hover{
     font-size: 30px;
   }
   main .desc2{
-    font-size: 15px;
+    font-size: 10px;
   }
-  main .social{
+  main .social a{
     font-size: 15px;
   }
 }
