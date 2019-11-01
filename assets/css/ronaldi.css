@@ -3,28 +3,28 @@ html{
 }
 
 main{
-  margin-top: 250px;
-  color: greenyellow;
+  margin-top: 200px;
+  color: white;
   text-align: center;
 }
 
 main > .desc{
-  color: pink;
-  display: inline;
-  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  color: rgb(252, 145, 163);
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 300; 
-  font-size: 30px;
+  font-size: 50px;
 }
 
 main > .desc2{
-  display: inline;
-  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300; 
   font-size: 30px;
 }
 
 main > .social{
-  display: inline-block;
+  display: block;
 }
 
 main > .social a{
