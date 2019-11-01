@@ -20,7 +20,7 @@ body {
 
 #page{
   transform: translate(-50%, -50%); 
-  width: 1000px;
+  width: 100%;
   top: 50%;
   left: 50%;
   right: 50%;
@@ -59,19 +59,15 @@ body {
 /* MEDIA AND KEYFRAMES */
 
 @media only screen and (max-width: 768px) {
-  html {
-    height: 100%;
-  }
-
   body {
     background-repeat: no-repeat;
   }
 
   .social > a{
-    font-size: 25px;
+    font-size: 40px;
   }
 
   #page > .name{
-  font-size: 30px;
+  font-size: 50px;
 }
 }
