@@ -3,7 +3,7 @@ html{
 }
 
 main{
-  margin-top: 200px;
+  margin-top: 170px;
   color: white;
   text-align: center;
 }
@@ -16,7 +16,7 @@ main > .desc{
   font-size: 50px;
 }
 
-main > .desc2{
+main .desc2{
   display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; 
@@ -42,21 +42,13 @@ main > .social a:hover{
 /* MEDIA AND KEYFRAMES */
 
 @media only screen and (max-width: 768px) {
-  .social a{
-    font-size: 40px;
+  .desc {
+    font-size: 30px;
   }
-  main > .desc{
-    color: pink;
-    display: inline;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300; 
-    font-size: 20px;
+  .desc2{
+    font-size: 23px;
   }
-  
-  main > .desc2{
-    display: inline;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300; 
-    font-size: 20px;
+  .social{
+    font-size: 23px;
   }
 }
