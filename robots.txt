@@ -1,4 +1,4 @@
-Sitemap: http://rnldch.github.io/sitemap.xml
+Sitemap: http://laronbeta.github.io/sitemap.xml
 
 User-agent: *
 Allow: /

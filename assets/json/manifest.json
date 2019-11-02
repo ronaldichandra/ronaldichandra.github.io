@@ -1,11 +1,11 @@
-{"short_name" : "rnldch",
-    "name" : "rnldch",
+{"short_name" : "laronbeta",
+    "name" : "laronbeta",
     "start_url" : "/",
-    "background_color" : "#000",
-    "theme_color" : "#fff",
+    "background_color" : "#3A3D4C",
+    "theme_color" : "#3A3D4C",
     "display" : "minimal-ui",
     "lang" : "en",
-    "description" : "Just a boy who likes to Android and Web things.",
+    "description" : "Hello, i'm so fascinated to Linux and Android stuff.",
     "icons" : [
         {
             "src": "/assets/images/ms-icon-310x310.png",
