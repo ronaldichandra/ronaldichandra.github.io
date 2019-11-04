@@ -10,7 +10,7 @@ main{
 
 main .desc{
   display: block;
-  color: rgb(252, 145, 163);
+  color: #c09ee6;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300; 
   font-size: 50px;
@@ -23,20 +23,29 @@ main .desc2{
   font-size: 30px;
 }
 
-main > .social{
+main .desc2 a{
+  color: #fff;
+}
+
+main .desc2 a:hover{
+  transition-duration: .5s;
+  color: #c09ee6;
+}
+
+main .social{
   display: block;
 }
 
-main > .social a{
+main .social a{
   margin: 0 6px 0 6px;
   color: #fff;
   font-size: 40px;
 }
 
 
-main > .social a:hover{
+main .social a:hover{
   transition-duration: .5s;
-  font-size: 30px;
+  color: #c09ee6;
 }
 
 /* MEDIA AND KEYFRAMES */
