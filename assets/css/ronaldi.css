@@ -1,43 +1,38 @@
 html{
+  overflow: hidden;
   background-color:#3A3D4C;
 }
 
 main{
-  margin-top: 190px;
   color: white;
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 main .desc{
-  display: block;
   color: #c09ee6;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300; 
-  font-size: 50px;
+  font-size: 70px;
 }
 
 main .desc2{
-  display: block;
+  margin-top: 3vh;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; 
   font-size: 30px;
 }
 
-main .desc2 a{
-  color: #fff;
-}
-
-main .desc2 a:hover{
-  transition-duration: .5s;
-  color: #c09ee6;
-}
-
 main .social{
+  margin-top: 3vh;
   display: block;
 }
 
 main .social a{
-  margin: 0 6px 0 6px;
+  margin: 0px 6px 0 6px;
   color: #fff;
   font-size: 40px;
 }
