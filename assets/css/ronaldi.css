@@ -32,6 +32,7 @@ main .social{
 }
 
 main .social a{
+  text-decoration: none;
   margin: 0px 6px 0 6px;
   color: #fff;
   font-size: 40px;
