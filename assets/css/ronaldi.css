@@ -46,6 +46,9 @@ main .social a:hover{
 /* MEDIA AND KEYFRAMES */
 
 @media only screen and (max-width: 768px) {
+  main{
+    min-height: 90vh;
+  }
   main .desc {
     font-size: 40px;
   }
