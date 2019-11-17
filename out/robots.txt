@@ -1,0 +1,7 @@
+Sitemap: http://laronbeta.github.io/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /sw.js
+Disallow: /about/
+Disallow: /google0440d1465317c763.html
