@@ -1,1 +1,0 @@
-$VAR1 = {'identlike' => {'GET' => [''],'static' => [''],'include' => [''],'rnldch' => [''],'activate' => [''],'v5' => [''],'pages' => [''],'Accept' => [''],'fetch' => [''],'install' => ['']},'other' => {'/' => [''],'text/html' => [''],'/index.html' => [''],'/404.html' => ['']}};

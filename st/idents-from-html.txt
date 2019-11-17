@@ -1,5 +1,0 @@
-author
-description
-keywords
-robots
-viewport

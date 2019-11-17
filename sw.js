@@ -1,45 +1,45 @@
-/*
-This is a modified version of Ethan Marcotte's service worker (https://ethanmarcotte.com/theworkerofservices.js),
-which is in turn a modified version of Jeremy Keith's service worker (https://adactio.com/serviceworker.js),
-with a few additional edits borrowed from Filament Group's. (https://www.filamentgroup.com/sw.js)
-*/
+
+
+
+
+
 
 (function() {
   const version = 'v5';
-  const cacheName = version + 'rnldch';
+  const ReplacementFor_cacheName = version + 'rnldch';
 
-  const STATIC = cacheName + 'static';
-  const PAGES = cacheName + 'pages';
+  const ReplacementFor_STATIC = ReplacementFor_cacheName + 'static';
+  const ReplacementFor_PAGES = ReplacementFor_cacheName + 'pages';
 
-  const staticAssets = [
+  const ReplacementFor_staticAssets = [
     '/',
     '/index.html',
   ];
 
-  function updateStatic() {
-    return caches.open(STATIC).then(cache => {
-      return cache.addAll(
-        staticAssets.map(url => new Request(url, { credentials: 'include' }))
+  function ReplacementFor_updateStatic() {
+    return ReplacementFor_caches.open(ReplacementFor_STATIC).then(ReplacementFor_cache => {
+      return ReplacementFor_cache.ReplacementFor_addAll(
+        ReplacementFor_staticAssets.map(url => new ReplacementFor_Request(url, { ReplacementFor_credentials: 'include' }))
       );
     });
   }
 
-  function clearCaches() {
-    return caches.keys().then(keys => {
+  function ReplacementFor_clearCaches() {
+    return ReplacementFor_caches.keys().then(keys => {
       return Promise.all(
         keys
           .filter(key => key.indexOf(version) !== 0)
-          .map(key => caches.delete(key))
+          .map(key => ReplacementFor_caches.delete(key))
       );
     });
   }
 
   self.addEventListener('install', event => {
-    event.waitUntil(updateStatic().then(() => self.skipWaiting()));
+    event.ReplacementFor_waitUntil(ReplacementFor_updateStatic().then(() => self.ReplacementFor_skipWaiting()));
   });
 
   self.addEventListener('activate', event => {
-    event.waitUntil(clearCaches().then(() => self.clients.claim()));
+    event.ReplacementFor_waitUntil(ReplacementFor_clearCaches().then(() => self.ReplacementFor_clients.ReplacementFor_claim()));
   });
 
   self.addEventListener('fetch', event => {
@@ -49,19 +49,19 @@ with a few additional edits borrowed from Filament Group's. (https://www.filamen
     if (request.method !== 'GET') return;
 
     if (request.headers.get('Accept').includes('text/html')) {
-      event.respondWith(
-        fetch(request)
+      event.ReplacementFor_respondWith(
+        ReplacementFor_fetch(request)
           .then(response => {
-            let copy = response.clone();
-            caches
-              .open(staticAssets.includes(url.pathname) ? STATIC : PAGES)
-              .then(cache => cache.put(request, copy));
+            let ReplacementFor_copy = response.clone();
+            ReplacementFor_caches
+              .open(ReplacementFor_staticAssets.includes(url.pathname) ? ReplacementFor_STATIC : ReplacementFor_PAGES)
+              .then(ReplacementFor_cache => ReplacementFor_cache.put(request, ReplacementFor_copy));
             return response;
           })
           .catch(() => {
-            return caches
+            return ReplacementFor_caches
               .match(request)
-              .then(response => response || caches.match('/404.html'));
+              .then(response => response || ReplacementFor_caches.match('/404.html'));
           })
       );
       return;
