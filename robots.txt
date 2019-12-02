@@ -1,4 +1,4 @@
-Sitemap: http://laronbeta.github.io/sitemap.xml
+Sitemap: http://ronhyun329.github.io/sitemap.xml
 
 User-agent: *
 Allow: /
