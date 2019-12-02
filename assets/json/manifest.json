@@ -1,11 +1,11 @@
-{"short_name" : "laronbeta",
-    "name" : "laronbeta",
+{"short_name" : "ronhyun329",
+    "name" : "ronhyun329",
     "start_url" : "/",
     "background_color" : "#3A3D4C",
     "theme_color" : "#3A3D4C",
     "display" : "minimal-ui",
     "lang" : "en",
-    "description" : "Hello, i'm so fascinated to Linux and Android stuff.",
+    "description" : "Annyeong, i'm so excited to Linux and Android.",
     "icons" : [
         {
             "src": "/assets/images/laronbeta.png",
