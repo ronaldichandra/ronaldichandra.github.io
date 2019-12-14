@@ -107,7 +107,7 @@ main [class~=social] a {
         font-size: 40px;
     }
     main {
-        min-height: 90vh;
+        min-height: 80vh;
     }
     main [class~=social] a {
         font-size: .3125in;
