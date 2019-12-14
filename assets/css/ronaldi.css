@@ -1,1 +1,118 @@
-main .desc,main [class~=social] a:hover{color:#c09ee6;}main .desc{font-family:"Quicksand",sans-serif;}html{overflow:hidden;}html{background-color:#3a3d4c;}main [class~=social] a{text-decoration:none;}main .desc{font-size:4.375pc;}main [class~=social] a{margin-left:6px;}main [class~=desc2],main .social{margin-top:3vh;}main [class~=social] a{margin-bottom:0;}main{color:white;}main{text-align:center;}main [class~=social] a{margin-right:.0625in;}main{min-height:100vh;}main [class~=desc2]{font-family:"Roboto",sans-serif;}main [class~=desc2]{font-weight:300;}main{display:flex;}main [class~=social] a{margin-top:0pc;}main [class~=desc2]{font-size:.3125in;}main{flex-direction:column;}main{justify-content:center;}main .social{display:block;}main [class~=social] a{color:#fff;}main [class~=social] a:hover{transition-duration:.5s;}main [class~=social] a{font-size:.416666667in;}@media only screen and (max-width: 768px){main [class~=desc]{font-size:40px;}main{min-height:90vh;}main [class~=social] a{font-size:.3125in;}main .desc2{font-size:.208333333in;}}
+main [class~=social] a:hover {
+    color: #9DE0AD;
+}
+
+main .desc {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+}
+
+html {
+    overflow: hidden;
+}
+
+html {
+    background-color: #363636;
+}
+
+main [class~=social] a {
+    text-decoration: none;
+}
+
+main .desc {
+    font-size: 40px;
+}
+
+main #nama{
+    color: #9DE0AD;
+}
+main [class~=social] a {
+    margin-left: 6px;
+}
+
+main .social {
+    margin-top: 10px;
+}
+
+hr{
+    width:150px;
+}
+
+main [class~=social] a {
+    margin-bottom: 0;
+}
+
+main {
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+main [class~=social] a {
+    margin-right: .0625in;
+}
+
+main {
+    min-height: 100vh;
+}
+
+main [class~=desc2] {
+    font-family: "Roboto", sans-serif;
+}
+
+main [class~=desc2] {
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+}
+
+main [class~=social] a {
+    margin-top: 0pc;
+}
+
+main [class~=desc2] {
+    font-size: .3125in;
+}
+
+main {
+    flex-direction: column;
+}
+
+main {
+    justify-content: center;
+}
+
+main .social {
+    display: block;
+}
+
+main [class~=social] a {
+    color: #fff;
+}
+
+main [class~=social] a:hover {
+    transition-duration: .5s;
+}
+
+main [class~=social] a {
+    font-size: .416666667in;
+}
+
+@media only screen and (max-width: 768px) {
+    main [class~=desc] {
+        font-size: 40px;
+    }
+    main {
+        min-height: 90vh;
+    }
+    main [class~=social] a {
+        font-size: .3125in;
+    }
+    main .desc2 {
+        font-size: .208333333in;
+    }
+}
