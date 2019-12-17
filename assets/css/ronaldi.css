@@ -99,7 +99,7 @@ main [class~=social] a:hover {
 }
 
 main [class~=social] a {
-    font-size: .416666667in;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 768px) {
