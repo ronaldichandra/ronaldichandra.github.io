@@ -1,5 +1,5 @@
 main [class~=social] a:hover {
-    color: #9DE0AD;
+    color: #00ffff;
 }
 
 main .desc {
@@ -24,7 +24,7 @@ main .desc {
 }
 
 main #nama{
-    color: #9DE0AD;
+    color: #00ffff;
 }
 main [class~=social] a {
     margin-left: 6px;
