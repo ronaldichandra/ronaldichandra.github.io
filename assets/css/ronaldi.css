@@ -66,10 +66,6 @@ main [class~=desc2] {
     font-weight: 300;
 }
 
-main {
-    display: block;
-}
-
 main [class~=social] a {
     margin-top: 0pc;
 }
