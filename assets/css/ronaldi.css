@@ -67,7 +67,7 @@ main [class~=desc2] {
 }
 
 main {
-    display: flex;
+    display: block;
 }
 
 main [class~=social] a {
