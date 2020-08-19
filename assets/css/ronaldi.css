@@ -23,6 +23,10 @@ main .desc {
     font-size: 40px;
 }
 
+main {
+ display: flex;
+}
+
 main #nama{
     color: #00ffff;
 }
