@@ -1,128 +1,68 @@
 main [class~=social] a:hover {
-    color: #00ffff;
+color:#0ff;
+transition-duration:.5s;
 }
 
 main .desc {
-    font-family: "Google Sans", sans-serif;
-    font-weight: 500;
+font-family:"Google Sans", sans-serif;
+font-weight:500;
+font-size:40px;
 }
 
 html {
-    overflow: hidden;
-}
-
-html {
-    background-color: #363636;
+overflow:hidden;
+background-color:#363636;
 }
 
 main [class~=social] a {
-    text-decoration: none;
-}
-
-main .desc {
-    font-size: 40px;
+text-decoration:none;
+color:#fff;
+font-size:30px;
+margin:0 .0625in 0 6px;
 }
 
 main {
- display: flex;
+display:flex;
+color:#FFF;
+text-align:center;
+min-height:100vh;
+flex-direction:column;
+justify-content:center;
 }
 
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background-color: #b61924;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-main #nama{
-    color: #00ffff;
-}
-main [class~=social] a {
-    margin-left: 6px;
+main #nama {
+color:#0ff;
 }
 
 main .social {
-    margin-top: 10px;
+margin-top:10px;
+display:block;
 }
 
-hr{
-    width:150px;
-}
-
-main [class~=social] a {
-    margin-bottom: 0;
-}
-
-main {
-    color: white;
-}
-
-main {
-    text-align: center;
-}
-
-main [class~=social] a {
-    margin-right: .0625in;
-}
-
-main {
-    min-height: 100vh;
+hr {
+width:150px;
 }
 
 main [class~=desc2] {
-    font-family: "Roboto", sans-serif;
+font-family:Roboto, sans-serif;
+font-weight:300;
+font-size:.3125in;
 }
 
-main [class~=desc2] {
-    font-weight: 300;
-}
-
-main [class~=social] a {
-    margin-top: 0pc;
-}
-
-main [class~=desc2] {
-    font-size: .3125in;
+@media only screen and max-width 768px{
+main [class~=desc] {
+font-size:40px;
 }
 
 main {
-    flex-direction: column;
-}
-
-main {
-    justify-content: center;
-}
-
-main .social {
-    display: block;
+min-height:80vh;
 }
 
 main [class~=social] a {
-    color: #fff;
+font-size:.3125in;
 }
 
-main [class~=social] a:hover {
-    transition-duration: .5s;
+main .desc2 {
+font-size:.208333333in;
 }
-
-main [class~=social] a {
-    font-size: 30px;
-}
-
-@media only screen and (max-width: 768px) {
-    main [class~=desc] {
-        font-size: 40px;
-    }
-    main {
-        min-height: 80vh;
-    }
-    main [class~=social] a {
-        font-size: .3125in;
-    }
-    main .desc2 {
-        font-size: .208333333in;
-    }
 }
