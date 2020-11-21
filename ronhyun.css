@@ -22,8 +22,8 @@ p{
 }
 
 #header{
-    font-size: 65px;
-    margin-top: 15%;
+    font-size: 50px;
+    margin-top: 17%;
     color: rgb(189, 81, 252);
 }
 
@@ -43,9 +43,9 @@ a{
     text-decoration: none;
     color: white;
     font-size: 30px;
+    transition-duration: .5s;
 }
 
 a:hover{
     color: rgb(189, 81, 252);
-    transition-duration: .5s;
 }
