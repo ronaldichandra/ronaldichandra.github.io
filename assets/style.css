@@ -15,7 +15,6 @@ body .container{
 .navbar > .navbar-brand{
     color: #8A2BE2 !important;
     font-size: 25px;
-    font-weight: 600;
 }
 
 .navbar .nav-item{
@@ -103,7 +102,6 @@ a{
 
 @media (max-width:768px ) {
     .navbar .judul{
-        font-weight: 500;
         display: none;
     }
 
