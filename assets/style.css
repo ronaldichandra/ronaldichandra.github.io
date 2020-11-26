@@ -9,6 +9,7 @@ html{
 
 body .container{
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .navbar > .navbar-brand{
@@ -25,7 +26,7 @@ body .container{
 
 .isi h1{
     animation: fade 3s;
-    margin-top: 3em !important;
+    margin-top: 2em !important;
 }
 
 .isi p{
@@ -34,7 +35,7 @@ body .container{
     color: #3f3f3f !important;
 }
 
-.isi a{
+.isi .link{
     animation: fade 7s;
     display: inline-block;
     margin-top: 20px;
@@ -45,7 +46,7 @@ body .container{
     background-color: #8A2BE2;
 }
 
-.isi a:hover{
+.isi .link:hover{
     color: white;
     background-color: #6521a5;
 }
@@ -72,6 +73,13 @@ body .container{
     font-weight: bold;
 }
 
+.isi .contact{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8A2BE2 !important;
+    text-decoration: none;
+}
+
 hr{
     color: #E0E0E0;
 	background-color: #E0E0E0;
@@ -83,17 +91,22 @@ hr{
     color: #8A2BE2 !important;
 }
 
-@keyframes fade{
-    0%{
-        opacity: 0;
-    }
+a{
+    text-decoration: none;
+}
 
-    100%{
-        opacity: 1;
+@media(min-width:992px){
+    .navbar .emoji{
+        display: none;
     }
 }
 
 @media (max-width:768px ) {
+    .navbar .judul{
+        font-weight: 500;
+        display: none;
+    }
+
     .profile{
         margin-top: 20px;
         max-width: 150px;
