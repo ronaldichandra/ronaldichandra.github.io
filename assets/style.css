@@ -95,15 +95,12 @@ a{
 }
 
 @media(min-width:992px){
-    .navbar .emoji{
-        display: none;
-    }
+    /*
+        anu
+    */
 }
 
 @media (max-width:768px ) {
-    .navbar .judul{
-        display: none;
-    }
 
     .profile{
         margin-top: 20px;
