@@ -2,11 +2,6 @@ html{
     font-family: 'Work Sans', sans-serif;    ;
 }
 
-.bg{
-    background-image: url(bg.png);
-    background-size: cover;
-}
-
 body .container{
     margin-top: 25px;
     margin-bottom: 25px;
@@ -46,7 +41,6 @@ body .container{
 }
 
 .isi .link:hover{
-    color: white;
     background-color: #6521a5;
 }
 
@@ -86,6 +80,10 @@ hr{
 	border:0;
 }
 
+.col-md-6 img{
+    margin-top: 4em !important;
+}
+
 .ungu{
     color: #8A2BE2 !important;
 }
@@ -101,6 +99,11 @@ a{
 }
 
 @media (max-width:768px ) {
+
+    .col-md-6 img{
+        display: none;
+    }
+    
 
     .profile{
         margin-top: 20px;
