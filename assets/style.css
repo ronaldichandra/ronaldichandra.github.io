@@ -2,7 +2,7 @@ html{
     font-family: 'Work Sans', sans-serif;    ;
 }
 
-body{
+.bg{
     background-image: url(bg.png);
     background-size: cover;
 }
