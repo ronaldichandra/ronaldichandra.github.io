@@ -60,6 +60,25 @@ body .container{
     font-weight: 400;
 }
 
+.profile{
+    margin-top: 20px;
+    max-width: 200px;
+    border-radius: 100%;
+}
+
+.isi .pdn{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+hr{
+    color: #E0E0E0;
+	background-color: #E0E0E0;
+	height:1px;
+	border:0;
+}
+
 .ungu{
     color: #8A2BE2 !important;
 }
@@ -75,8 +94,23 @@ body .container{
 }
 
 @media (max-width:768px ) {
+    .profile{
+        margin-top: 20px;
+        max-width: 150px;
+        border-radius: 100%;
+    }
+
     .isi .head{
         font-size: 25px;
         font-weight: bold;
+    }
+
+    .isi .pdn{
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .bg{
+        background: none;
     }
 }
