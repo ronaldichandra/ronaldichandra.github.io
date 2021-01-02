@@ -43,12 +43,12 @@ body .container{
     border-radius: 3px;
     text-decoration: none !important;
     padding: 10px;
-    background-color: #c383ff;
+    background-color: #F9A826;
 }
 
 .isi .link:hover{
     color: #fff;
-    background-color: #6521a5;
+    background-color: #85693B;
 }
 
 .isi .head{
@@ -77,7 +77,7 @@ body .container{
 .isi .contact{
     font-size: 20px;
     font-weight: 400;
-    color: #5183f5 !important;
+    color: #F9A826 !important;
     text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ hr{
 }
 
 .ungu{
-    color: #c383ff !important;
+    color: #F9A826 !important;
 }
 
 a{
@@ -110,7 +110,7 @@ a{
   
 .daftar li::before{
     content: "\2022";
-    color: #c383ff;
+    color: #F9A826;
     font-weight: bold;
     position: absolute;
     width: 1em;
