@@ -1,163 +1,172 @@
-html{
-    background-color: #ffffff !important;
-    font-family: 'Work Sans', sans-serif;    ;
+html {
+  background-color: #ffffff !important;
+  font-family: "Work Sans", sans-serif;
 }
 
-.bg{
-    background-color: #202020 !important;
+.bg {
+  background-color: #ffffff !important;
 }
 
-body .container{
-    margin-top: 25px;
-    margin-bottom: 25px;
+body .container {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-.navbar > .navbar-brand{
-    color: #c383ff !important;
-    font-size: 25px;
+.navbar > .navbar-brand {
+  color: #000 !important;
+  font-size: 25px;
 }
 
-.navbar .nav-item{
-    padding-right: 20px;
-    font-size: 20px;
-    font-weight: 600;
+.navbar .nav-item {
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.isi h1{
-    color: #b3b9c3 !important;
-    animation: fade 3s;
-    margin-top: 2em !important;
+.navbar .nav-item .nav-link {
+  color: #000 !important;
 }
 
-.isi p{
-    animation: fade 5s;
-    margin-top: 20px;
-    color: #abb4c3 !important;
+.navbar .nav-item .nav-link:hover {
+  transition-duration: 0.8s;
+  color: #637aff !important;
 }
 
-.isi .link{
-    animation: fade 7s;
-    display: inline-block;
-    margin-top: 20px;
-    color: #202020;
-    border-radius: 3px;
-    text-decoration: none !important;
-    padding: 10px;
-    background-color: #F9A826;
+.isi h1 {
+  color: #000 !important;
+  animation: fade 3s;
+  margin-top: 2em !important;
 }
 
-.isi .link:hover{
-    color: #fff;
-    background-color: #85693B;
+.isi p {
+  animation: fade 5s;
+  margin-top: 20px;
+  color: #000 !important;
 }
 
-.isi .head{
-    font-size: 35px;
-    color:#F9A826 !important;
-    font-weight: bold;
+.isi .link {
+  animation: fade 7s;
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none !important;
+  padding: 10px;
+  background-color: #637aff;
 }
 
-.isi .desc{
-    font-size: 20px;
-    font-weight: 400;
+.isi .link:hover {
+  transition-duration: 0.8s;
+  color: #fff;
+  background-color: #303a75;
 }
 
-.profile{
-    margin-top: 20px;
-    max-width: 200px;
-    border-radius: 100%;
+.isi .head {
+  font-size: 35px;
+  color: #000 !important;
+  font-weight: bold;
 }
 
-.isi .pdn{
-    color: #b3b9c5 !important;
-    margin-top: 30px;
-    font-size: 30px;
-    font-weight: bold;
+.isi .desc {
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.isi .contact{
-    font-size: 20px;
-    font-weight: 400;
-    color: #fff !important;
-    text-decoration: none;
+.profile {
+  margin-top: 20px;
+  max-width: 200px;
+  border-radius: 100%;
 }
 
-.isi .contact:hover{
-    color: #F9A826 !important;
+.isi .pdn {
+  color: #b3b9c5 !important;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-hr{
-    color: #E0E0E0;
-	background-color: #E0E0E0;
-	height:1px;
-	border:0;
+.isi .contact {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000 !important;
+  text-decoration: none;
 }
 
-.col-md-6 img{
-    margin-top: 4em !important;
+.isi .contact:hover {
+  transition-duration: 0.8s;
+  color: #637aff !important;
 }
 
-.ungu{
-    color: #F9A826 !important;
+hr {
+  color: #e0e0e0;
+  background-color: #e0e0e0;
+  height: 1px;
+  border: 0;
 }
 
-a{
-    text-decoration: none;
+.col-md-6 img {
+  margin-top: 4em !important;
+}
+
+.color-text {
+  color: #637aff !important;
+}
+
+a {
+  text-decoration: none;
 }
 
 .daftar {
-    list-style: none;
-}
-  
-.daftar .isi_daftar{
-    display: inline;
-    font-size: larger;
+  background-color: #fff;
+  list-style: none;
 }
 
-.daftar li::before{
-    content: "\2022";
-    color: #F9A826;
-    font-weight: bold;
-    position: absolute;
-    width: 1em;
-    margin-left: -1em;
+.daftar .isi_daftar {
+  display: inline;
+  font-size: larger;
 }
 
+.daftar li::before {
+  content: "\2022";
+  color: #000;
+  font-weight: bold;
+  position: absolute;
+  width: 1em;
+  margin-left: -1em;
+}
 
-@media(min-width:992px){
-    /*
+@media (min-width: 992px) {
+  /*
         anu
     */
 }
 
-@media (max-width:768px ) {
+@media (max-width: 768px) {
+  .col-md-6 img {
+    display: none;
+  }
 
-    .col-md-6 img{
-        display: none;
-    }
-    
+  .profile {
+    margin-top: 20px;
+    max-width: 150px;
+    border-radius: 100%;
+  }
 
-    .profile{
-        margin-top: 20px;
-        max-width: 150px;
-        border-radius: 100%;
-    }
+  .isi .head {
+    font-size: 25px;
+    font-weight: bold;
+  }
 
-    .isi .head{
-        font-size: 25px;
-        font-weight: bold;
-    }
+  .isi .pdn {
+    font-size: 23px;
+    font-weight: bold;
+  }
 
-    .isi .pdn{
-        font-size: 23px;
-        font-weight: bold;
-    }
-
-    .bg{
-        background: none;
-    }
+  .bg {
+    background: none;
+  }
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
+  width: 0px;
 }
