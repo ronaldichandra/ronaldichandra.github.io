@@ -30,7 +30,7 @@ body .container {
 
 .navbar .nav-item .nav-link:hover {
   transition: ease-in-out 0.4s;
-  color: #637aff !important;
+  color: #314ddf !important;
 }
 
 .isi h1 {
@@ -49,18 +49,20 @@ body .container {
   animation: fade 7s;
   display: inline-block;
   margin-top: 20px;
-  color: #fff;
+  color: #314ddf;
   border-radius: 3px;
+  font-weight: bold;
   text-decoration: none !important;
   padding: 10px;
-  background-color: #637aff;
+  border-radius: 5%;
+  background-color: #dde0ff;
   transition: ease-in-out 0.4s;
 }
 
 .isi .link:hover {
   transition: ease-in-out 0.4s;
   color: #fff;
-  background-color: #303a75;
+  background-color: #314ddf;
 }
 
 .isi .head {
@@ -97,7 +99,7 @@ body .container {
 
 .isi .contact:hover {
   transition: ease-in-out 0.4s;
-  color: #637aff !important;
+  color: #314ddf !important;
 }
 
 hr {
@@ -112,7 +114,7 @@ hr {
 }
 
 .color-text {
-  color: #637aff !important;
+  color: #314ddf !important;
 }
 
 a {
