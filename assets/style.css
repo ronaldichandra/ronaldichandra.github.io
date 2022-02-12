@@ -24,11 +24,12 @@ body .container {
 }
 
 .navbar .nav-item .nav-link {
+  transition: ease-in-out 0.4s;
   color: #000 !important;
 }
 
 .navbar .nav-item .nav-link:hover {
-  transition-duration: 0.8s;
+  transition: ease-in-out 0.4s;
   color: #637aff !important;
 }
 
@@ -53,10 +54,11 @@ body .container {
   text-decoration: none !important;
   padding: 10px;
   background-color: #637aff;
+  transition: ease-in-out 0.4s;
 }
 
 .isi .link:hover {
-  transition-duration: 0.8s;
+  transition: ease-in-out 0.4s;
   color: #fff;
   background-color: #303a75;
 }
@@ -86,6 +88,7 @@ body .container {
 }
 
 .isi .contact {
+  transition: ease-in-out 0.4s;
   font-size: 20px;
   font-weight: 400;
   color: #000 !important;
@@ -93,7 +96,7 @@ body .container {
 }
 
 .isi .contact:hover {
-  transition-duration: 0.8s;
+  transition: ease-in-out 0.4s;
   color: #637aff !important;
 }
 
