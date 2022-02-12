@@ -1,10 +1,10 @@
 html {
   background-color: #ffffff !important;
-  font-family: "Work Sans", sans-serif;
 }
 
 .bg {
   background-color: #ffffff !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 body .container {
@@ -125,7 +125,7 @@ a {
 }
 
 .daftar .isi_daftar {
-  display: inline;
+  display: inline-block;
   font-size: larger;
 }
 
