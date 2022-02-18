@@ -1,9 +1,9 @@
 html {
-  background-color: #ffffff !important;
+  background-color: #fff !important;
 }
 
 .bg {
-  background-color: #ffffff !important;
+  background-color: #fff !important;
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -51,7 +51,6 @@ body .container {
   margin-top: 20px;
   color: #314ddf;
   border-radius: 3px;
-  font-weight: bold;
   text-decoration: none !important;
   padding: 10px;
   border-radius: 5%;
