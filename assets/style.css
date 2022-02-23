@@ -49,19 +49,19 @@ body .container {
   animation: fade 7s;
   display: inline-block;
   margin-top: 20px;
-  color: #314ddf;
+  color: #fff;
   border-radius: 3px;
   text-decoration: none !important;
   padding: 10px;
   border-radius: 5%;
-  background-color: #dde0ff;
+  background-color: #314ddf;
   transition: ease-in-out 0.4s;
 }
 
 .isi .link:hover {
   transition: ease-in-out 0.4s;
-  color: #fff;
-  background-color: #314ddf;
+  color: #001e2e;
+  background-color: #c5e7ff;
 }
 
 .isi .head {
