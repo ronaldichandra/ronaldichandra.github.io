@@ -60,8 +60,8 @@ body .container {
 
 .isi .link:hover {
   transition: ease-in-out 0.4s;
-  color: #001e2e;
-  background-color: #c5e7ff;
+  color: #fff;
+  background-color: #101f69;
 }
 
 .isi .head {
